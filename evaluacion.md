@@ -8,6 +8,6 @@ Quices | Feb 4-8 | 40%
 &nbsp; | Abr 8 - 12 |
 &nbsp; | May 6 - 10 |
 Talleres prácticos | | 40%
-Evaluación final | | 20%
+Evaluación final | May 20 - Jun 1 | 20%
 
 [Home](index.html)
