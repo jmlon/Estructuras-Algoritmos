@@ -1,6 +1,6 @@
 **Algorithms**, 4th ed.  
 Sedgewick, Wayne.  
-http://algs4.cs.princeton.edu/home/  
+(http://algs4.cs.princeton.edu/home/)
 
 **Fundamentos de Algoritmia**.  
 Brassard, Bratley.  
