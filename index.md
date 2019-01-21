@@ -1,8 +1,7 @@
 # Estructuras de Datos y Algoritmos
 
-## Temas
+Contenidos
 
-## Bibliografía
+[Bibliografia](bibliografia.html)
 
-## Organización
 [Evaluación](evaluacion.html)
