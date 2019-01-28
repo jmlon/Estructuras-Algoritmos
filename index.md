@@ -1,6 +1,6 @@
 # Estructuras de Datos y Algoritmos
 
-##Contenidos  
+## Contenidos  
 
 0. [Presentación del curso](slides/00.1-Presentacion.pdf)  
 1. [Tipos de datos abstractos](1-ADT/index.html)  
@@ -15,7 +15,8 @@
 
 [Evaluación](evaluacion.html)
 
-## Talleres prácticos
+## Talleres prácticos  
+[Taller 1: Bibliotecas y ADTs](talleres/Taller1-201910.pdf)
 
 
 ## Recursos en línea
