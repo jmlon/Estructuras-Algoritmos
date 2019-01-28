@@ -1,6 +1,6 @@
 # Estructuras de Datos y Algoritmos
 
-Contenidos  
+##Contenidos  
 
 0. [Presentación del curso](slides/00.1-Presentacion.pdf)  
 1. [Tipos de datos abstractos](1-ADT/index.html)  
@@ -14,3 +14,13 @@ Contenidos
 [Bibliografia](bibliografia.html)
 
 [Evaluación](evaluacion.html)
+
+## Talleres prácticos
+
+
+## Recursos en línea
+
+[Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/)
+
+[Documentación Java 10](https://docs.oracle.com/javase/10/)
+
