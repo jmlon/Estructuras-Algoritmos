@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="tabStyles.css">
+    <script>
+        function openCity(evt, language) {
+          // Declare all variables
+          var i, tabcontent, tablinks;
+
+          // Get all elements with class="tabcontent" and hide them
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+
+          // Get all elements with class="tablinks" and remove the class "active"
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+
+          // Show the current tab, and add an "active" class to the button that opened the tab
+          document.getElementById(language).style.display = "block";
+          evt.currentTarget.className += " active";
+        } 
+    </script>
+</head>
+<body>
+
+
+
+<!-- howto: https://www.w3schools.com/howto/howto_js_tabs.asp -->
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Java')" id="defaultOpen">Java</button>
+  <button class="tablinks" onclick="openCity(event, 'Python')">Python</button>
+  <button class="tablinks" onclick="openCity(event, 'CSharp')">C#</button>
+</div>
+<!-- Open Java by default -->
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script> 
+
+
+<!-- Tab content -->
+<div id="Java" class="tabcontent">
+  <h3>Java</h3>
+  <iframe source="">Contador.java</iframe>
+</div>
+
+<div id="Python" class="tabcontent">
+  <h3>Python</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="CSharp" class="tabcontent">
+  <h3>C#</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+
+</body>
+</html>
+
