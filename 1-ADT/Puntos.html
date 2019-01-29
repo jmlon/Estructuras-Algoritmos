@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="tabStyles.css">
 
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
     <script>
         function openCity(evt, language) {
@@ -73,12 +73,14 @@
 
 <!-- Tab content -->
 <div id="Java" class="tabcontent">
-<pre class="prettyprint" w3-include-html="Contador.java"></pre>
+<pre w3-include-html="Contador.java" class="prettyprint"></pre>
 </div>
 
 <div id="Python" class="tabcontent">
-  <h3>Python</h3>
-  <p>Paris is the capital of France.</p>
+<pre class="prettyprint">
+import numpy as np
+a = np.array( [1,2,3] )
+</pre>
 </div>
 
 <div id="CSharp" class="tabcontent">
