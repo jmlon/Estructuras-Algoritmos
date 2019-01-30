@@ -4,7 +4,7 @@
 
 ## Programas ejemplo
 - Implementación del ADT [Contador](Contador.html)  
-- Implementación del ADT [Punto](Punto.html)  
+- Implementación del ADT [Punto](Punto2D.html)  
 
 
 <BR>
