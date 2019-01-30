@@ -7,6 +7,10 @@
 - Implementación del ADT [Punto](Punto2D.html)  
 
 
+## Ejercicios
+
+- [Ejercicios de repaso 1](Ejercicios1.pdf)  
+
 <BR>
 <HR>
 [Home](../index.html)
