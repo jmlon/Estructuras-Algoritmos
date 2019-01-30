@@ -3,7 +3,11 @@
 [Concepto e implementacion de ADTs](../slides/01.1-ADT-sem01.pdf)
 
 ## Programas ejemplo
-- Implementación del ADT Contador: [interface](Contador.java) e [implementacion](ImplementacionContador.java)
+- Implementación del ADT [Contador](Contador.html)  
+- Implementación del ADT [Punto](Punto.html)  
 
 
+<BR>
+<HR>
 [Home](../index.html)
+
