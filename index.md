@@ -21,7 +21,10 @@
 
 ## Recursos en línea
 
-[Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/)
+- [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/)
 
-[Documentación Java 10](https://docs.oracle.com/javase/10/)
+- [Documentación Java 10](https://docs.oracle.com/javase/10/)
+
+- [Implementacion (parcial) en C# de las bibliotecas del texto](https://github.com/angellaa/algs4)
+
 
