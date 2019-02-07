@@ -12,6 +12,7 @@
 ## Material complementario
 
 - Video: [Data Structures: Crash Course Computer Science #14](https://www.youtube.com/watch?v=DuDz6B4cqVc)
+- Tutorial: [Java Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 
 
 <BR>
