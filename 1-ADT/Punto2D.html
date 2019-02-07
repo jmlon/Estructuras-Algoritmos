@@ -2,61 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="../css/tabStyles.css">
-
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
-    <script>
-        function openCity(evt, language) {
-          // Declare all variables
-          var i, tabcontent, tablinks;
-
-          // Get all elements with class="tabcontent" and hide them
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-
-          // Get all elements with class="tablinks" and remove the class "active"
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-
-          // Show the current tab, and add an "active" class to the button that opened the tab
-          document.getElementById(language).style.display = "block";
-          evt.currentTarget.className += " active";
-        } 
-
-
-        function includeHTML() {
-          var z, i, elmnt, file, xhttp;
-          /* Loop through a collection of all HTML elements: */
-          z = document.getElementsByTagName("*");
-          for (i = 0; i < z.length; i++) {
-            elmnt = z[i];
-            /*search for elements with a certain atrribute:*/
-            file = elmnt.getAttribute("w3-include-html");
-            if (file) {
-              /* Make an HTTP request using the attribute value as the file name: */
-              xhttp = new XMLHttpRequest();
-              xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                  /* Remove the attribute, and call this function once more: */
-                  elmnt.removeAttribute("w3-include-html");
-                  includeHTML();
-                }
-              }
-              xhttp.open("GET", file, true);
-              xhttp.send();
-              /* Exit the function: */
-              return;
-            }
-          }
-        }
-
-    </script>
+    <script src="../js/tabs.js"></script>
 </head>
 <body>
 
@@ -66,39 +13,39 @@
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Java')" id="defaultOpen">Java</button>
-  <button class="tablinks" onclick="openCity(event, 'Python')">Python</button>
-  <button class="tablinks" onclick="openCity(event, 'CSharp')">C#</button>
-  <button class="tablinks" onclick="openCity(event, 'Kotlin')">Kotlin</button>
+  <button class="tablinks" onclick="openTab(event, 'Java')" id="defaultOpen">Java</button>
+  <button class="tablinks" onclick="openTab(event, 'Python')">Python</button>
+  <button class="tablinks" onclick="openTab(event, 'CSharp')">C#</button>
+  <button class="tablinks" onclick="openTab(event, 'Kotlin')">Kotlin</button>
 </div>
 
 <!-- Tab content -->
 <div id="Java" class="tabcontent">
     <P><B>Punto2D.java</B></P>
-    <pre w3-include-html="Punto2D.java" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/Punto2D.java" class="prettyprint"></pre>
     <P><B>Punto2DCartesiano.java</B></P>
-    <pre w3-include-html="Punto2DCartesiano.java" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/Punto2DCartesiano.java" class="prettyprint"></pre>
     <P><B>Punto2DPolar.java</B></P>
-    <pre w3-include-html="Punto2DPolar.java" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/Punto2DPolar.java" class="prettyprint"></pre>
 </div>
 
 <div id="Python" class="tabcontent">
     <P><B>point2D.py</B></P>
-    <pre w3-include-html="point2D.py" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/point2D.py" class="prettyprint"></pre>
     <P><B>point2DCartesian.py</B></P>
-    <pre w3-include-html="point2DCartesian.py" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/point2DCartesian.py" class="prettyprint"></pre>
     <P><B>point2DPolar.py</B></P>
-    <pre w3-include-html="point2DPolar.py" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/point2DPolar.py" class="prettyprint"></pre>
 </div>
 
 <div id="CSharp" class="tabcontent">
     <P><B>Program.cs</B></P>
-    <pre w3-include-html="Program.cs" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/Program.cs" class="prettyprint"></pre>
 </div>
 
 <div id="Kotlin" class="tabcontent">
     <P><B>Puntos.kt</B></P>
-    <pre w3-include-html="Puntos.kt" class="prettyprint"></pre>
+    <pre w3-include-html="punto2D/Puntos.kt" class="prettyprint"></pre>
 </div>
 
 
