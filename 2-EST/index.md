@@ -9,6 +9,11 @@
 ## Ejercicios
 
 
+## Material complementario
+
+- Video: [Data Structures: Crash Course Computer Science #14](https://www.youtube.com/watch?v=DuDz6B4cqVc)
+
+
 <BR>
 <HR>
 [Home](../index.html)

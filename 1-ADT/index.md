@@ -7,7 +7,7 @@
 ## Programas ejemplo
 - Implementación del ADT [Contador](Contador.html)  
 - Implementación del ADT [Punto](Punto2D.html)  
-
+- Implementación de los ADT [Bomba y Objetivo](BombasObjetivos.html)
 
 ## Ejercicios
 
@@ -15,8 +15,8 @@
 
 ## Material complementario
 
-- [Bjarne Stroustrup - Object Oriented Programming without Inheritance](https://www.youtube.com/watch?v=xcpSLRpOMJM)
-- [Object-Oriented Programming is Bad](https://www.youtube.com/watch?v=QM1iUe6IofM). Nota: Son las opiniones del autor del video y no un concenso con el que estén de acuerdo la academia y la industria.
+- Video: [Bjarne Stroustrup - Object Oriented Programming without Inheritance](https://www.youtube.com/watch?v=xcpSLRpOMJM)
+- Video: [Object-Oriented Programming is Bad](https://www.youtube.com/watch?v=QM1iUe6IofM). Nota: Son las opiniones del autor del video y no un concenso con el que estén de acuerdo la academia y la industria.
 
 <BR>
 <HR>
