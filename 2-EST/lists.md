@@ -11,3 +11,8 @@
 Iniciar el desarrollo del [taller práctico 2](../talleres/Taller2-201910.pdf)
 
 
+<BR>
+<HR>
+[Home](../index.html)
+<BR>
+

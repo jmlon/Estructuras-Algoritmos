@@ -1,7 +1,8 @@
 # Estructuras de datos básicas
 
 ## Slides
-- [Estructuras básicas](02.1-Estructuras-sem02.pdf)
+- [Estructuras básicas](../slides/02.1-Estructuras-sem02.pdf)
+- [Actividad no presencial](lists.html)
 
 ## Programas ejemplo
 - [Implementación de la estructuras básicas](Estructuras.html)
