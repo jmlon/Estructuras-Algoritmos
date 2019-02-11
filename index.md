@@ -16,7 +16,9 @@
 [Evaluación](evaluacion.html)
 
 ## Talleres prácticos  
-[Taller 1: Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
+
+1. [Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
+2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 1/Marzo
 
 
 ## Recursos en línea
