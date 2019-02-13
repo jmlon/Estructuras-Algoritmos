@@ -1,6 +1,7 @@
 package edu.upb.estalg.ADTs.bombaObjetivo;
 
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Implementacion del ADT Bomba
@@ -10,12 +11,15 @@ import edu.princeton.cs.algs4.StdDraw;
  */
 public class Bomba implements IBomba {
 
-    private double x;
-    private double y;
+    private double x;   // Coordenada X
+    private double y;   // Coordenada Y
+    private double t0;  // Tiempo de lanzamiento
+    private double y0;  // Altura inicial
 
     public Bomba(double x, double y) {
         this.x = x;
-        this.y = y;
+        this.y = y0 = y;
+        t0 = System.currentTimeMillis()/1000.0;
     }
 
     @Override
@@ -31,6 +35,12 @@ public class Bomba implements IBomba {
     @Override
     public void mover() {
         y -= 0.1;
+    }
+
+    @Override
+    public void caer(double t) {
+        double deltaT = t-t0;
+        y = y0 - 9.8*deltaT*deltaT/2;
     }
 
     public String toString() {

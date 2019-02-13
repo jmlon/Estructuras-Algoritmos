@@ -8,9 +8,10 @@ package edu.upb.estalg.ADTs.bombaObjetivo;
  */
 public interface IBomba {
 
-    double getX();      // obtener coordenada x
-    double getY();      // obtener coordenada y
-    void mover();       // mover la Bomba hacia abajo
-    void dibujar();     // dibujar la Bomba
+    double getX();          // obtener coordenada x
+    double getY();          // obtener coordenada y
+    void mover();           // mover la Bomba hacia abajo
+    void dibujar();         // dibujar la Bomba
+    void caer(double t);    // simula la caida libre de la bomba
 
 }
