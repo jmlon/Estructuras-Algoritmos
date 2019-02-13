@@ -12,7 +12,7 @@ Cada uno de los siguientes ejercicios vale por 1 punto adicional en el Quiz 1:
 1. El juego genera a veces una excepción ConcurrentModificationException. 
 Explicar porque se presenta esta excepción e implementar una solución al problema.
 
-2. Al presionar el mouse muchas veces se lanza mas de una bomba.
+2. Al presionar el mouse se lanza mas de una bomba.
 Explicar porque ocurre esto y dar una solución para que solo se lance una bomba por cada click.
 
 3. Para hacer el juego mas realista, se propone que el escenario tenga muchos edificios distintos
