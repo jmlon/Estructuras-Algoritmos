@@ -3,6 +3,7 @@
 ## Slides
 - [Estructuras básicas](../slides/02.1-Estructuras-sem02.pdf)
 - [Actividad no presencial](lists.html)
+- [Estructuras implementadas con Listas](../slides/02.2-Estructuras-Listas-sem03.pdf)
 
 ## Programas ejemplo
 - [Implementación de la estructuras básicas](Estructuras.html)
