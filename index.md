@@ -20,10 +20,22 @@
 1. [Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
 2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 1/Marzo
 
+## Fechas importantes
+
+- Quiz 1: Feb 7
+- Quiz 2: Feb 28
+- Quiz 3: Mar 21
+- Quiz 4: Abr 11
+- Quiz 5: May 9
+
 
 ## Recursos en línea
 
 - [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/)
+
+- [Open Data Structures, Pat Morin](http://opendatastructures.org/)
+
+- [Algorithms, Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 
 - [Documentación Java 10](https://docs.oracle.com/javase/10/)
 
