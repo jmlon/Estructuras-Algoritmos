@@ -2,8 +2,8 @@
 
 ## Slides
 
-- [Análisis de Algoritmos I](slides/03.1-AnalisisAlgoritmos-sem04.pdf)  
-- [Análisis de Algoritmos II](slides/03.2-AnalisisAlgoritmos-sem05.pdf)  
+- [Análisis de Algoritmos I](../slides/03.1-AnalisisAlgoritmos-sem04.pdf)  
+- [Análisis de Algoritmos II](../slides/03.2-AnalisisAlgoritmos-sem05.pdf)  
 
 ## Programas ejemplo
 
