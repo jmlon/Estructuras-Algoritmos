@@ -3,6 +3,8 @@ package edu.upb.estalg.ADTs.bombaObjetivo;
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.awt.*;
+
 /**
  * Implementacion del ADT Objetivo
  *
@@ -15,12 +17,19 @@ public class Objetivo implements IObjetivo {
     private double y;
     private double w;
     private double h;
+    private Color c;
 
     public Objetivo(double x, double y, double w, double h) {
         this.x = x;
         this.y = y;
         this.w = w;
         this.h = h;
+        this.c = StdDraw.BLACK;
+    }
+
+    public Objetivo(double x, double y, double w, double h, Color c) {
+        this(x, y, w, h);
+        this.c = c;
     }
 
     @Override
@@ -36,7 +45,7 @@ public class Objetivo implements IObjetivo {
 
     public void dibujar() {
         StdDraw.setPenRadius(0.01);
-        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.setPenColor(c);
         StdDraw.filledRectangle(x+w/2,y+h/2,w/2,h/2);
     }
 
