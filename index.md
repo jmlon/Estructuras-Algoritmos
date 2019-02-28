@@ -18,7 +18,7 @@
 ## Talleres prácticos  
 
 1. [Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
-2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 1/Marzo
+2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 6/Marzo
 
 ## Fechas importantes
 
