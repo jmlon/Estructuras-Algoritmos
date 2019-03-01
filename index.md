@@ -19,6 +19,7 @@
 
 1. [Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
 2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 6/Marzo
+2. [Evaluación experimental de algoritmos](talleres/Taller3-201910.pdf). Fecha entrega: 25/Marzo
 
 ## Fechas importantes
 
