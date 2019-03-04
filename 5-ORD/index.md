@@ -19,7 +19,7 @@
 ## Material complementario
 
 - Video: [Intro to Algorithms: Crash Course Computer Science #13](https://www.youtube.com/watch?v=rL8X2mlNHPM)
-
+- Video: [Sedgewick - Union/Find](https://www.youtube.com/watch?v=gfSpPbJWzVs&list=PL5iJcUfx7xTdBIAUg4pco1qUK-VOLekNo&index=1)
 
 <BR>
 <HR>
