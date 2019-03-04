@@ -2,6 +2,12 @@
 
 ## Slides
 
+- [La estructura unión-búsqueda (Union/Find)](../slides/04.1-UnionFind-sem06.pdf)
+<!--
+- [Métodos de ordenación básicos](../slides/05.1-Sorting-sem08.pdf)
+- [Mergesort](../slides/05.2-Mergesort-sem09.pdf)
+- [Quicksort](../slides/05.3-Quicksort-sem10.pdf)
+-->
 
 ## Programas ejemplo
 
