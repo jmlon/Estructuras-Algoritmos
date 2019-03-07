@@ -8,7 +8,7 @@
 ## Programas ejemplo
 
 - [Threesum](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/ThreeSum.java.html) y [Stopwatch](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Stopwatch.java.html)
-
+- [Medición del espacio](MedicionTamano.html)
 
 ## Ejercicios
 
@@ -22,7 +22,7 @@
 - Video: [Donald Knuth - Why I chose analysis of algorithms as a subject](https://www.youtube.com/watch?v=s04GGLoU4lQ)
 - Video: [Sedgewick - Introducción al análisis de algorithms](https://www.youtube.com/watch?v=NSoSLBPfoog&list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&index=8)
 - Video: [Sedgewick - Método analítico](https://www.youtube.com/watch?v=tJYBmtjsIkA&list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&index=9)
-- []() -->
+<!--- []() -->
 <!-- - []() -->
 <!-- - []() -->
 

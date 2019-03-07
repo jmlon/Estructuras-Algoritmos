@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/tabStyles.css">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="../js/tabs.js"></script>
+</head>
+<body>
+
+
+
+<!-- howto: https://www.w3schools.com/howto/howto_js_tabs.asp -->
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Java')" id="defaultOpen">Java</button>
+  <!--button class="tablinks" onclick="openCity(event, 'Python')">Python</button-->
+</div>
+
+<!-- Tab content -->
+<div id="Java" class="tabcontent">
+    <P><B>Medición de tamaño de objetos</B></P>
+    <P><B>ObjectSizeTest.java</B></P>
+    <pre w3-include-html="ObjectSizeTest.java" class="prettyprint"></pre>
+    <P><B>InstrumentationAgent.java</B></P>
+    <pre w3-include-html="InstrumentationAgent.java" class="prettyprint"></pre>
+    <P><B>DemoClass.java</B></P>
+    <pre w3-include-html="DemoClass.java" class="prettyprint"></pre>
+</div>
+
+<!--div id="Python" class="tabcontent">
+    <P><B>Bag.py</B></P>
+    <pre w3-include-html="Bag.py" class="prettyprint"></pre>
+    <P><B>Stack.py</B></P>
+    <pre w3-include-html="Stack.py" class="prettyprint"></pre>
+    <P><B>Queue.py</B></P>
+    <pre w3-include-html="Queue.py" class="prettyprint"></pre>
+</div-->
+
+
+<!-- Open default tab -->
+<script>
+    // Include external HTML files
+    includeHTML();
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script> 
+
+</body>
+</html>
+
