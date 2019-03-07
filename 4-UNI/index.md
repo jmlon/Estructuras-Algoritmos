@@ -1,4 +1,4 @@
-# Métodos de ordenación
+# Unión/Búsqueda - Union/Find
 
 ## Slides
 
