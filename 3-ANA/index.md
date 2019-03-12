@@ -12,6 +12,8 @@
 
 ## Ejercicios
 
+- [Ejercicios de repaso 3](Ejercicios3.pdf)
+
 
 ## Material complementario
 
