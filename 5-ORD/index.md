@@ -13,6 +13,9 @@
 
 
 ## Ejercicios
+- Ordenación por selección: [Selection](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Selection.java.html)  
+- Ordenación por inserción: [Insertion](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Insertion.java.html)  
+- Ordenamiento shell: [Shell](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Shell.java.html)  
 
 
 ## Material complementario
