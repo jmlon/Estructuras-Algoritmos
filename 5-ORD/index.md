@@ -21,7 +21,13 @@
 
 ## Material complementario
 
-- Video: [Intro to Algorithms: Crash Course Computer Science #13](https://www.youtube.com/watch?v=rL8X2mlNHPM)
+- Video: [Intro to Algorithms: Crash Course Computer Science #13](https://www.youtube.com/watch?v=rL8X2mlNHPM)  
+- Video: [HackerRank: Bubble sort](https://www.youtube.com/watch?v=6Gv8vg0kcHc)  
+- Video: [Sedgewick: Elementary sorts](https://www.youtube.com/watch?v=GENxxQx9Erg&list=PL5iJcUfx7xTei2gIfyONF4aplI0tASbW4)  
+- Video: [HackerRank: Mergesort](https://www.youtube.com/watch?v=KF2j-9iSf4Q)  
+- Video: [Sedgewick: Mergesort](https://www.youtube.com/watch?v=ypae0cmi7hM&list=PL5iJcUfx7xTeMWs0ci98CEW9aEURcviZv)  
+- Video: [HackerRank: Quicksort](https://www.youtube.com/watch?v=SLauY6PpjW4)  
+- Video: [Sedgewick: Quicksort](https://www.youtube.com/watch?v=1a-chpO4bgQ&list=PL5iJcUfx7xTcS3wlgS6uYwStWIzxQld6r)  
 
 
 <BR>
