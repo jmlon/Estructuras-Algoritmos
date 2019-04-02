@@ -39,6 +39,11 @@
 - [Visualization of Quick sort (HD)](https://www.youtube.com/watch?v=aXXWXz5rF64)  
 
 
+### Llengo más alla
+- [What is the P versus NP problem?](https://www.youtube.com/watch?v=UR2oDYZ-Sao)  
+
+
+
 <BR>
 <HR>
 [Home](../index.html)

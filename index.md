@@ -3,13 +3,13 @@
 ## Contenidos  
 
 0. [Presentación del curso](slides/00.1-Presentacion.pdf)  
-1. [Tipos de datos abstractos](1-ADT/index.html)  
-2. [Estructuras de datos básicas](2-EST/index.html)  
+1. [Tipos de datos abstractos (ADT)](1-ADT/index.html)  
+2. [Estructuras de datos básicas (stacks,queues,bags)](2-EST/index.html)  
 3. [Análisis de algoritmos](3-ANA/index.html)  
 4. [Estructura unión/búsqueda](4-UNI/index.html)  
-5. [Métodos de ordenación](5-ORD/index.html)  
-6. [Métodos de selección](6-SEL/index.html)  
-7. [Métodos de búsqueda](7-BUS/index.html)  
+5. [Métodos de ordenación (sorting)](5-ORD/index.html)  
+6. [Métodos de selección (heaps)](6-SEL/index.html)  
+7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 8. [Grafos](8-GRA/index.html)  
 
 [Bibliografia](bibliografia.html)
@@ -20,7 +20,9 @@
 
 1. [Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
 2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 6/Marzo
-2. [Evaluación experimental de algoritmos](talleres/Taller3-201910.pdf). Fecha entrega: 25/Marzo
+3. [Evaluación experimental de algoritmos](talleres/Taller3-201910.pdf). Fecha entrega: 25/Marzo
+4. [Ordenación de listas](talleres/Taller4-201910.pdf). Fecha entrega: 24/Abril
+
 
 ## Fechas importantes
 
