@@ -18,6 +18,8 @@
 
 ## Ejercicios
 
+- [Ejercicios de repaso: Metodos de ordenacion](Ejercicios4-201820.pdf)
+
 
 ## Material complementario
 
