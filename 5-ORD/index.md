@@ -23,6 +23,7 @@
 
 ## Material complementario
 
+
 ### Explicación
 
 - [Intro to Algorithms: Crash Course Computer Science #13](https://www.youtube.com/watch?v=rL8X2mlNHPM)  
@@ -35,13 +36,15 @@
 
 ### Comparación de rendimiento
 
+- [Comparación experimental de métodos de ordenamiento](ComparisonOfSortingAlgorithms.pdf)  
 - [Merge Sort vs Quick Sort](https://www.youtube.com/watch?v=es2T6KY45cA)  
 - [Visualization of 24 Sorting Algorithms In 2 Minutes](https://www.youtube.com/watch?v=BeoCbJPuvSE)  
 - [Python: Sorting Algorithms Benchmarks Comparison](https://www.youtube.com/watch?v=bJ0aERNrErA)  
 - [Visualization of Quick sort (HD)](https://www.youtube.com/watch?v=aXXWXz5rF64)  
 
 
-### Llengo más alla
+### Llendo más alla
+
 - [What is the P versus NP problem?](https://www.youtube.com/watch?v=UR2oDYZ-Sao)  
 
 
