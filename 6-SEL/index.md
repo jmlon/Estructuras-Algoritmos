@@ -10,6 +10,12 @@
 ## Ejercicios
 
 
+## Material complementario
+
+- Video: [HackerRank - heaps](https://www.youtube.com/watch?v=t0Cq6tVNRBA)  
+
+
+
 <BR>
 <HR>
 [Home](../index.html)

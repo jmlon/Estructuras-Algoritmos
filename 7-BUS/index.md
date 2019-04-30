@@ -14,6 +14,9 @@
 
 ## Material complementario
 
+- Video: [HackerRank - Binary search](https://www.youtube.com/watch?v=P3YID7liBug)  
+- Video: [HackerRank - Binary search Tree](https://www.youtube.com/watch?v=oSWTXtMglKE)  
+- Video: [Red Black Tree (Insertion) | GeeksforGeeks](https://www.youtube.com/watch?v=YCo2-H2CL6Q)  
 - Video: [HackerRank - Data Structures: Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
 - Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
 
