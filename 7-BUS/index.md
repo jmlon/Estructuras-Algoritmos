@@ -6,7 +6,8 @@
 
 
 ## Programas ejemplo
-
+- Búsqueda secuencial: [SequentialSearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/SequentialSearchST.java.html)  
+- Búsqueda binaria: [BinarySearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BinarySearchST.java.html)  
 
 ## Ejercicios
 
