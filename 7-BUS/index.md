@@ -1,7 +1,7 @@
 # Métodos de búsqueda
 
 ## Slides
-- [Tabla de símbolos, búsqueda secuencial, búsqueda binaria](slides/06.1-Busqueda-sem12.pdf)  
+- [Tabla de símbolos, búsqueda secuencial, búsqueda binaria](../slides/06.1-Busqueda-sem12.pdf)  
 
 
 
