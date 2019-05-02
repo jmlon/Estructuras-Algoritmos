@@ -24,6 +24,14 @@
 - HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
 - Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
 
+## Otros tipos de árboles
+
+### B-Tree
+
+- [B-Tree](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/)  
+- Fullstack Academy [B-Tree Tutorial - An Introduction to B-Trees](Videohttps://www.youtube.com/watch?v=C_q5ccN84C8)  
+
+
 
 <BR>
 <HR>
