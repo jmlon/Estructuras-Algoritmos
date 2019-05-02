@@ -2,12 +2,13 @@
 
 ## Slides
 - [Tabla de símbolos, búsqueda secuencial, búsqueda binaria](../slides/06.1-Busqueda-sem12.pdf)  
-
+- [Árboles Binarios de Búsqueda](../slides/06.2-ArbolesDeBusqueda-sem13.pdf)  
 
 
 ## Programas ejemplo
 - Búsqueda secuencial: [SequentialSearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/SequentialSearchST.java.html)  
 - Búsqueda binaria: [BinarySearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BinarySearchST.java.html)  
+- Binary Search Trees: [BST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BST.java.html)  
 
 ## Ejercicios
 
