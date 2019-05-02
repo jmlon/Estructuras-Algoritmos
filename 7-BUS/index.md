@@ -10,7 +10,10 @@
 - Búsqueda binaria: [BinarySearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BinarySearchST.java.html)  
 - Binary Search Trees: [BST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BST.java.html)  
 
+
 ## Ejercicios
+
+- [Ejercicios de repaso 5](Ejercicios5-201910.pdf)  
 
 
 ## Material complementario
