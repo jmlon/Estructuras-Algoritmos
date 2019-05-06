@@ -12,7 +12,7 @@
 7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 8. [Grafos](8-GRA/index.html)  
 
-[Bibliografia](bibliografia.html)
+[Bibliografía](bibliografia.html)
 
 [Evaluación](evaluacion.html)
 
