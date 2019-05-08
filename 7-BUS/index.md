@@ -23,6 +23,8 @@
 - GeeksforGeeks [Red Black Tree - Insertion ](https://www.youtube.com/watch?v=YCo2-H2CL6Q)  
 - HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
 - Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
+- GeeksforGeeks [Métodos de búsqueda](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)  
+
 
 ## Otros tipos de árboles
 
