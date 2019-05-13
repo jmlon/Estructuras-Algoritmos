@@ -32,7 +32,7 @@
   [Set 3 (Delete)](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)  
 - Sedgewick [Elementary Symbol Tables - Sequential Search, Binary Search](https://www.youtube.com/watch?v=g8DejJF9THI&list=PL5iJcUfx7xTfX-tompSrd0lCfkc1vyStO)  
 - Sedgewick [Binary Search Trees - BST](https://www.youtube.com/watch?v=vWchQ0Di7yM&list=PL5iJcUfx7xTejYSchSm1igNJ2M1wcIg0W)  
-- Sedgewick [Balance Search Trees](https://www.youtube.com/watch?v=N-yla7zw0Fw&list=PL5iJcUfx7xTc2QjKxufNpYNOUVDufUSij)  
+- Sedgewick [Balanced Search Trees](https://www.youtube.com/watch?v=N-yla7zw0Fw&list=PL5iJcUfx7xTc2QjKxufNpYNOUVDufUSij)  
 
 
 ## Otros tipos de árboles: B-Tree, AVL Tree, R-Tree
