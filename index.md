@@ -22,7 +22,7 @@
 2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 6/Marzo
 3. [Evaluación experimental de algoritmos](talleres/Taller3-201910.pdf). Fecha entrega: 25/Marzo
 4. [Ordenación de listas](talleres/Taller4-201910.pdf). Fecha entrega: 24/Abril
-5. [Tablas de símbolos - BST](talleres/Taller5-201910-Recuperacion.pdf). Fecha entrega: 20/Mayo
+5. [Tablas de símbolos - BST](talleres/Taller5-201910-Recuperacion.pdf). Fecha entrega: 25/Mayo
 
 
 ## Fechas importantes
