@@ -32,7 +32,7 @@
 - Quiz 3: Mar 21
 - Quiz 4: Abr 11
 - Quiz 5: May 9
-- Final: May 31 - 8am - [Ejercicios de repaso](7-BUS/Ejercicios6-201910.pdf)  
+- Final: May 31 - 8am, Bloque 12 - 206 [Ejercicios de repaso](7-BUS/Ejercicios6-201910.pdf)  
 
 
 ## Recursos en línea
