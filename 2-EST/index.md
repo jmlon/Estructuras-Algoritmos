@@ -25,6 +25,8 @@
 - Capitulo: [Open Data Structures - Linked Lists](http://opendatastructures.org/ods-python/3_Linked_Lists.html)  
 - Video: [Hackerrank: Stacks and Queues](https://www.youtube.com/watch?v=wjI1WNcIntg)  
 - Video: [Sedgewick: Bags, Queues, and Stacks](https://www.youtube.com/watch?v=jO17GlXHXGk)  
+- [JavaScript: What are Stack and Queue?](https://medium.com/javascript-in-plain-english/javascript-what-are-stack-and-queue-79df7af5a566)  
+
 
 <BR>
 <HR>
