@@ -3,6 +3,8 @@
 ## Contenidos  
 
 0. [Presentación del curso](slides/00.1-Presentacion.pdf)  
+
+<!--
 1. [Tipos de datos abstractos (ADT)](1-ADT/index.html)  
 2. [Estructuras de datos básicas (stacks,queues,bags)](2-EST/index.html)  
 3. [Análisis de algoritmos](3-ANA/index.html)  
@@ -11,6 +13,7 @@
 6. [Métodos de selección (heaps)](6-SEL/index.html)  
 7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 8. [Grafos](8-GRA/index.html)  
+-->
 
 [Bibliografía](bibliografia.html)
 
@@ -18,21 +21,23 @@
 
 ## Talleres prácticos  
 
+<!--
 1. [Bibliotecas y ADTs](talleres/Taller1-201910.pdf). Fecha entrega: 11/Feb
 2. [Listas enlazadas](talleres/Taller2-201910.pdf). Fecha entrega: 6/Marzo
 3. [Evaluación experimental de algoritmos](talleres/Taller3-201910.pdf). Fecha entrega: 25/Marzo
 4. [Ordenación de listas](talleres/Taller4-201910.pdf). Fecha entrega: 24/Abril
 5. [Tablas de símbolos - BST](talleres/Taller5-201910-Recuperacion.pdf). Fecha entrega: 26/Mayo
+-->
 
 
 ## Fechas importantes
 
-- Quiz 1: Feb 7
-- Quiz 2: Feb 28
-- Quiz 3: Mar 21
-- Quiz 4: Abr 11
-- Quiz 5: May 9
-- Final: May 31 - 8am, Bloque 12 - 206 [Ejercicios de repaso](7-BUS/Ejercicios6-201910.pdf)  
+- Quiz 1: Jul 31
+- Quiz 2: Ago 21
+- Quiz 3: Sep 11
+- Quiz 4: Oct 2
+- Quiz 5: Oct 23
+- Final: 
 
 
 ## Recursos en línea
