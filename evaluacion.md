@@ -2,12 +2,12 @@
 
 Actividad | Feachas | Porcentaje
 ----------| --------|-----------
-Quices | Feb 4-8 | 40%
-&nbsp; | Feb 25 - Mar 1 |
-&nbsp; | Mar 18 - 22 |
-&nbsp; | Abr 8 - 12 |
-&nbsp; | May 6 - 10 |
+Quices | Jul 29 - Ago 2 | 40%
+&nbsp; | Ago 19 - 23 |
+&nbsp; | Sep 9 - 13 |
+&nbsp; | Sep 30 - Oct 4 |
+&nbsp; | Oct 21 - 25 |
 Talleres prácticos | | 40%
-Evaluación final | May 20 - Jun 1 | 20%
+Evaluación final |  | 20%
 
 [Home](index.html)
