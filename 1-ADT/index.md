@@ -10,12 +10,17 @@
 
 <!--
 - Implementación de los ADT [Bomba y Objetivo](BombasObjetivos.html)
+-->
 
 ## Ejercicios
 
 - [Ejercicios de repaso 1](Ejercicios1.pdf)
-- [Reto complementario quiz 1](reto.html)
 
+<!--
+- [Reto complementario quiz 1](reto.html)
+-->
+
+<!--
 ## Material complementario
 
 - Video: [Bjarne Stroustrup - Object Oriented Programming without Inheritance](https://www.youtube.com/watch?v=xcpSLRpOMJM)
