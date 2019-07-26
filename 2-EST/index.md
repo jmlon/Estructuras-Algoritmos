@@ -3,15 +3,17 @@
 ## Slides
 
 - [Estructuras básicas](../slides/02.1-Estructuras-sem02.pdf)
+
+<!--
 - [Actividad no presencial](lists.html)
 - [Estructuras implementadas con Listas](../slides/02.2-Estructuras-Listas-sem03.pdf)
-
+-->
 
 ## Programas ejemplo
 
 - [Implementación de la estructuras básicas](Estructuras.html)
 
-
+<!--
 ## Ejercicios
 
 - [Ejercicios de repaso 2](Ejercicios2.pdf)
@@ -26,7 +28,7 @@
 - Video: [Hackerrank: Stacks and Queues](https://www.youtube.com/watch?v=wjI1WNcIntg)  
 - Video: [Sedgewick: Bags, Queues, and Stacks](https://www.youtube.com/watch?v=jO17GlXHXGk)  
 - [JavaScript: What are Stack and Queue?](https://medium.com/javascript-in-plain-english/javascript-what-are-stack-and-queue-79df7af5a566)  
-
+-->
 
 <BR>
 <HR>
