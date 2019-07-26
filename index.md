@@ -4,9 +4,9 @@
 
 0. [Presentación del curso](slides/00.1-Presentacion.pdf)  
 1. [Tipos de datos abstractos (ADT)](1-ADT/index.html)  
+2. [Estructuras de datos básicas (stacks,queues,bags)](2-EST/index.html)  
 
 <!--
-2. [Estructuras de datos básicas (stacks,queues,bags)](2-EST/index.html)  
 3. [Análisis de algoritmos](3-ANA/index.html)  
 4. [Estructura unión/búsqueda](4-UNI/index.html)  
 5. [Métodos de ordenación (sorting)](5-ORD/index.html)  
