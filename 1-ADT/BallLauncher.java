@@ -1,0 +1,65 @@
+package edu.upb.estalg.anim;
+
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
+
+/** Simulador de lanzamiento parabólico
+ *
+ *  @author Jorge Londono
+ */
+public class BallLauncher {
+
+
+    public static void main(String[] args) throws InterruptedException {
+
+        Ball ball = new Ball(30,60);
+
+        StdDraw.setXscale(0,100.0);
+        StdDraw.setYscale(0,100.0);
+        StdDraw.clear();
+
+        for(double t=0; t<10; t += DELAY/1000.0) {
+            ball.updatePosition(t);
+            StdOut.println(ball);
+            ball.paint();
+            Thread.sleep(DELAY);
+        }
+        System.exit(0);
+    }
+
+    public static final int DELAY = 75;    // en msec
+
+
+}
+
+
+class Ball {
+
+    private double x,y;     // Posicion de la bala
+    private double vel;     // Velocidad inicial
+    private double angle;   // Angulo de lanzamiento
+
+    Ball(double vel, double angle) {
+        this.vel = vel;
+        this.angle = Math.toRadians(angle);
+    }
+
+    public void updatePosition(double time) {
+        x = (double) (vel*Math.cos(angle)*time);
+        y = (double) (vel*Math.sin(angle)*time - g*time*time/2.0);
+    }
+
+    public void paint() {
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.RED);
+        StdDraw.setPenRadius(0.02);
+        StdDraw.point(x,y);
+    }
+
+    public String toString() {
+        return "("+x+","+y+")";
+    }
+
+    public static double g = 9.8;
+
+}
