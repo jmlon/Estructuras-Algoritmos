@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 /** Simulador de lanzamiento parabólico
  *
- *  @author Jorge Londono
+ *  @author Jorge Londoño
  */
 public class BallLauncher {
 
@@ -16,13 +16,15 @@ public class BallLauncher {
 
         StdDraw.setXscale(0,100.0);
         StdDraw.setYscale(0,100.0);
+        StdDraw.enableDoubleBuffering();
         StdDraw.clear();
+
 
         for(double t=0; t<10; t += DELAY/1000.0) {
             ball.updatePosition(t);
             StdOut.println(ball);
             ball.paint();
-            Thread.sleep(DELAY);
+            StdDraw.pause(DELAY);
         }
         System.exit(0);
     }
@@ -54,6 +56,7 @@ class Ball {
         StdDraw.setPenColor(StdDraw.RED);
         StdDraw.setPenRadius(0.02);
         StdDraw.point(x,y);
+        StdDraw.show();
     }
 
     public String toString() {
