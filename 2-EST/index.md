@@ -13,11 +13,9 @@
 
 - [Implementación de la estructuras básicas](Estructuras.html)
 
-<!--
 ## Ejercicios
 
 - [Ejercicios de repaso 2](Ejercicios2.pdf)
--->
 
 
 ## Material complementario
