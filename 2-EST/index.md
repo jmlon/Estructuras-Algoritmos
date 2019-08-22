@@ -15,7 +15,8 @@
 
 ## Ejercicios
 
-- [Ejercicios de repaso 2](Ejercicios2.pdf)
+- [Ejercicios de repaso 2](Ejercicios2.pdf)  
+- [Solucion Quiz 2](ArregloConLista.java.html)  
 
 
 ## Material complementario

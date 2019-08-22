@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>ArregloConLista.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #808080;}
+.s4 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ArregloConLista.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">edu.upb.estalg.Estructuras</span><span class="s0">;</span>
+
+<span class="s0">import </span><span class="s1">edu.princeton.cs.algs4.StdOut</span><span class="s0">;</span>
+
+<span class="s0">import </span><span class="s1">java.util.Iterator</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">ArregloConLista&lt;T&gt; </span><span class="s0">implements </span><span class="s1">Iterable&lt;T&gt; {</span>
+
+    <span class="s0">private </span><span class="s1">Nodo first</span><span class="s0">;</span>
+    <span class="s0">private int </span><span class="s1">N</span><span class="s0">;</span>
+
+    <span class="s0">private class </span><span class="s1">Nodo {</span>
+        <span class="s1">T item</span><span class="s0">;</span>
+        <span class="s1">Nodo sig</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public void </span><span class="s1">write(</span><span class="s0">int </span><span class="s1">i</span><span class="s0">, </span><span class="s1">T item) {</span>
+        <span class="s1">Nodo n=first</span><span class="s0">;</span>
+        <span class="s0">int </span><span class="s1">pos = </span><span class="s2">0</span><span class="s0">;</span>
+
+        <span class="s3">// En caso que la lista este vacia</span>
+        <span class="s0">if </span><span class="s1">(n==</span><span class="s0">null</span><span class="s1">) {</span>
+            <span class="s1">n = </span><span class="s0">new </span><span class="s1">Nodo()</span><span class="s0">;</span>
+            <span class="s1">first = n</span><span class="s0">;</span>
+            <span class="s1">N++</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">while</span><span class="s1">(pos&lt;i) {</span>
+            <span class="s0">if </span><span class="s1">(n.sig==</span><span class="s0">null</span><span class="s1">) {</span>
+                <span class="s1">n.sig = </span><span class="s0">new </span><span class="s1">Nodo()</span><span class="s0">;</span>
+                <span class="s1">N++</span><span class="s0">;</span>
+            <span class="s1">}</span>
+            <span class="s1">n = n.sig</span><span class="s0">;</span>
+            <span class="s1">pos++</span><span class="s0">;</span>
+        <span class="s1">}</span>
+        <span class="s1">n.item = item</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public </span><span class="s1">T get(</span><span class="s0">int </span><span class="s1">i) {</span>
+        <span class="s0">if </span><span class="s1">(i&lt;</span><span class="s2">0 </span><span class="s1">|| i&gt;=N) </span><span class="s0">throw new </span><span class="s1">ArrayIndexOutOfBoundsException(</span><span class="s4">&quot;indice i&gt;N&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s0">int </span><span class="s1">pos=</span><span class="s2">0</span><span class="s0">;</span>
+        <span class="s0">for</span><span class="s1">(Nodo n=first</span><span class="s0">; </span><span class="s1">n!=</span><span class="s0">null; </span><span class="s1">n=n.sig</span><span class="s0">,</span><span class="s1">pos++)</span>
+            <span class="s0">if </span><span class="s1">(pos==i)</span>
+                <span class="s0">return </span><span class="s1">n.item</span><span class="s0">;</span>
+        <span class="s0">return null; </span><span class="s3">// Porque y para que?</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public void </span><span class="s1">remove(</span><span class="s0">int </span><span class="s1">i) {</span>
+        <span class="s0">if </span><span class="s1">(i&lt;</span><span class="s2">0 </span><span class="s1">|| i&gt;=N) </span><span class="s0">throw new </span><span class="s1">ArrayIndexOutOfBoundsException(</span><span class="s4">&quot;indice i&gt;N&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s0">int </span><span class="s1">pos=</span><span class="s2">0</span><span class="s0">;</span>
+        <span class="s1">Nodo previo=first</span><span class="s0">;</span>
+        <span class="s0">for</span><span class="s1">(Nodo n=first</span><span class="s0">; </span><span class="s1">n!=</span><span class="s0">null; </span><span class="s1">n=n.sig</span><span class="s0">,</span><span class="s1">pos++) {</span>
+            <span class="s0">if </span><span class="s1">(pos == i) {</span>
+                <span class="s0">if </span><span class="s1">(previo != first)</span>
+                    <span class="s1">previo.sig = n.sig</span><span class="s0">;</span>
+                <span class="s0">else</span>
+                    <span class="s1">first = n.sig</span><span class="s0">;</span>
+                <span class="s1">N--</span><span class="s0">;</span>
+                <span class="s0">return;</span>
+            <span class="s1">}</span>
+            <span class="s1">previo=n</span><span class="s0">;</span>
+        <span class="s1">}</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public int </span><span class="s1">size() {</span>
+        <span class="s0">return </span><span class="s1">N</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public boolean </span><span class="s1">isEmpty() {</span>
+        <span class="s0">return </span><span class="s1">N==</span><span class="s2">0</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+
+    <span class="s1">@Override</span>
+    <span class="s0">public </span><span class="s1">Iterator&lt;T&gt; iterator() {</span>
+        <span class="s0">return new </span><span class="s1">ArrayIterator()</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+
+    <span class="s0">private class </span><span class="s1">ArrayIterator </span><span class="s0">implements </span><span class="s1">Iterator&lt;T&gt; {</span>
+
+        <span class="s0">private </span><span class="s1">Nodo pos = first</span><span class="s0">;</span>
+
+        <span class="s1">@Override</span>
+        <span class="s0">public boolean </span><span class="s1">hasNext() {</span>
+            <span class="s0">return </span><span class="s1">pos!=</span><span class="s0">null;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">@Override</span>
+        <span class="s0">public </span><span class="s1">T next() {</span>
+            <span class="s1">T item = pos.item</span><span class="s0">;</span>
+            <span class="s1">pos = pos.sig</span><span class="s0">;</span>
+            <span class="s0">return </span><span class="s1">item</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+    <span class="s1">}</span>
+
+
+    <span class="s0">public </span><span class="s1">String toString() {</span>
+        <span class="s1">StringBuilder sb = </span><span class="s0">new </span><span class="s1">StringBuilder()</span><span class="s0">;</span>
+        <span class="s0">for</span><span class="s1">(T i: </span><span class="s0">this</span><span class="s1">) {</span>
+            <span class="s1">sb.append(i+</span><span class="s4">&quot;, &quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">}</span>
+        <span class="s0">return </span><span class="s1">sb.toString()</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+
+        <span class="s1">ArregloConLista&lt;Integer&gt; test = </span><span class="s0">new </span><span class="s1">ArregloConLista&lt;&gt;()</span><span class="s0">;</span>
+
+        <span class="s3">// Inicializar el arreglo para hacer las pruebas</span>
+        <span class="s0">for</span><span class="s1">(</span><span class="s0">int </span><span class="s1">i=</span><span class="s2">0</span><span class="s0">; </span><span class="s1">i&lt;</span><span class="s2">10</span><span class="s0">; </span><span class="s1">i++)</span>
+            <span class="s1">test.write(i</span><span class="s0">, </span><span class="s1">i)</span><span class="s0">;</span>
+
+        <span class="s3">// Visualizacion (no es prueba unitaria)</span>
+        <span class="s1">StdOut.println(test.N)</span><span class="s0">;</span>
+        <span class="s1">StdOut.println(test)</span><span class="s0">;</span>
+
+        <span class="s3">// Pruebas unitarias</span>
+
+        <span class="s3">// 1. Probar el iterator y el metodo get</span>
+        <span class="s0">for</span><span class="s1">(</span><span class="s0">int </span><span class="s1">i: test) {</span>
+            <span class="s0">assert</span><span class="s1">( i == test.get(i))</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+        <span class="s3">// 2. Probar el metodo write</span>
+        <span class="s1">test.write(</span><span class="s2">5</span><span class="s0">, </span><span class="s2">12345</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s0">assert</span><span class="s1">( test.get(</span><span class="s2">5</span><span class="s1">) == </span><span class="s2">12345 </span><span class="s1">)</span><span class="s0">;</span>
+
+        <span class="s3">// 3. Prueba del metodo remove</span>
+        <span class="s1">test.remove(</span><span class="s2">0</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s0">assert</span><span class="s1">( test.get(</span><span class="s2">0</span><span class="s1">) == </span><span class="s2">1</span><span class="s1">)</span><span class="s0">;</span>
+
+        <span class="s3">// 4. Prueba del metodo size</span>
+        <span class="s0">assert</span><span class="s1">( test.size() == </span><span class="s2">9 </span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">test.remove(</span><span class="s2">8</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s0">assert</span><span class="s1">( test.size() == </span><span class="s2">8 </span><span class="s1">)</span><span class="s0">;</span>
+
+        <span class="s3">// Imprimir la version final del arreglo</span>
+        <span class="s1">StdOut.println(test)</span><span class="s0">;</span>
+
+    <span class="s1">}</span>
+
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
