@@ -22,7 +22,7 @@
 ## Talleres prácticos  
 
 1. [Bibliotecas y ADTs](talleres/Taller1-201920.pdf). Fecha entrega: 14/Ago
-2. [Evaluación experimental de algoritmos](talleres/Taller3-201920.pdf). Fecha entrega: 6/Septiembre
+2. [Evaluación experimental de algoritmos](talleres/Taller2-201920.pdf). Fecha entrega: 6/Septiembre
 
 <!--
 3. [Evaluación experimental de algoritmos](talleres/Taller3-201910.pdf). Fecha entrega: 25/Marzo
