@@ -14,10 +14,10 @@
 
 - [Medición del espacio](MedicionTamano.html)
 
-<!--
 ## Ejercicios
 
 - [Ejercicios de repaso 3](Ejercicios3.pdf)
+<!--
 -->
 
 
