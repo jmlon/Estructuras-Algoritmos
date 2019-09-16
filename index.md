@@ -7,9 +7,9 @@
 2. [Estructuras de datos básicas (stacks,queues,bags)](2-EST/index.html)  
 3. [Análisis de algoritmos](3-ANA/index.html)  
 4. [Estructura unión/búsqueda](4-UNI/index.html)  
+5. [Métodos de ordenación (sorting)](5-ORD/index.html)  
 
 <!--
-5. [Métodos de ordenación (sorting)](5-ORD/index.html)  
 6. [Métodos de selección (heaps)](6-SEL/index.html)  
 7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 8. [Grafos](8-GRA/index.html)  
@@ -21,9 +21,9 @@
 
 ## Talleres prácticos  
 
-1. [Bibliotecas y ADTs](talleres/Taller1-201920.pdf). Fecha entrega: 14/Ago
-2. [Evaluación experimental de algoritmos](talleres/Taller2-201920.pdf). Fecha entrega: 6/Septiembre
-3. [Estructura Unión-Búsqueda](talleres/Taller3-201920.pdf). Fecha entrega: 24/Septiembre
+1. [Bibliotecas y ADTs](talleres/Taller1-201920.pdf). Fecha entrega: 14/Ago  
+2. [Evaluación experimental de algoritmos](talleres/Taller2-201920.pdf). Fecha entrega: 6/Septiembre  
+3. [Estructura Unión-Búsqueda](talleres/Taller3-201920.pdf). Fecha entrega: 24/Septiembre  
 
 <!--
 4. [Ordenación de listas](talleres/Taller4-201910.pdf). Fecha entrega: 24/Abril
