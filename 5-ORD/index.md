@@ -24,7 +24,7 @@
 ## Ejercicios
 
 - [Ejercicios de repaso 4: Métodos de ordenación](Ejercicios4-201920.pdf)
-
+- [Punto 1](https://gist.github.com/jmlon/28dcf264fdaa0c029d149506b436dd34) y [Punto 2](https://gist.github.com/jmlon/3d97b2802075851c2be578b254b6a32b)
 <!--
 -->
 
