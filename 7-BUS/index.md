@@ -28,9 +28,11 @@
 - Sedgewick [Elementary Symbol Tables - Sequential Search, Binary Search](https://www.youtube.com/watch?v=g8DejJF9THI&list=PL5iJcUfx7xTfX-tompSrd0lCfkc1vyStO)  
 - HackerRank [ Binary search](https://www.youtube.com/watch?v=P3YID7liBug)  
 
+<!--
 - Sedgewick [Binary Search Trees - BST](https://www.youtube.com/watch?v=vWchQ0Di7yM&list=PL5iJcUfx7xTejYSchSm1igNJ2M1wcIg0W)  
 - Sedgewick [Balanced Search Trees](https://www.youtube.com/watch?v=N-yla7zw0Fw&list=PL5iJcUfx7xTc2QjKxufNpYNOUVDufUSij)  
 - HackerRank [ Binary search Tree](https://www.youtube.com/watch?v=oSWTXtMglKE)  
+-->
 
 <!--
 - GeeksforGeeks [Red Black Tree - Insertion ](https://www.youtube.com/watch?v=YCo2-H2CL6Q)  
