@@ -9,9 +9,9 @@
 4. [Estructura unión/búsqueda](4-UNI/index.html)  
 5. [Métodos de ordenación (sorting)](5-ORD/index.html)  
 6. [Métodos de selección (heaps)](6-SEL/index.html)  
+7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 
 <!--
-7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 8. [Grafos](8-GRA/index.html)  
 -->
 

@@ -28,6 +28,8 @@
 - Video: [Hackerrank: Stacks and Queues](https://www.youtube.com/watch?v=wjI1WNcIntg)  
 - Video: [Sedgewick: Bags, Queues, and Stacks](https://www.youtube.com/watch?v=jO17GlXHXGk)  
 - [JavaScript: What are Stack and Queue?](https://medium.com/javascript-in-plain-english/javascript-what-are-stack-and-queue-79df7af5a566)  
+- [Data Structures in JavaScript — Part 1: Colas, Pilas](https://blog.bitsrc.io/data-structures-in-javascript-part-1-8231c9a4bc8b)  
+- [Data Structures in JavaScript — Part 2: Listas, Grafos, Árboles](https://blog.bitsrc.io/data-structures-in-javascript-part-2-d0d09b761df0)  
 
 
 <BR>
