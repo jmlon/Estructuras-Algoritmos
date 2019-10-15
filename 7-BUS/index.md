@@ -16,11 +16,11 @@
 <!--
 - Binary Search Trees: [BST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BST.java.html)  
 - Red-Black Binary Search Tree [RedBlackBST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/RedBlackBST.java.html)  
+-->
 
 ## Ejercicios
 
 - [Ejercicios de repaso 5](Ejercicios5-201910.pdf)  
--->
 
 
 ## Material complementario
