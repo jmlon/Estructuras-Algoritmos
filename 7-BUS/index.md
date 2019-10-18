@@ -2,9 +2,9 @@
 
 ## Slides
 - [Tabla de símbolos, búsqueda secuencial, búsqueda binaria](../slides/06.1-Busqueda-sem12.pdf)  
+- [Árboles Binarios de Búsqueda](../slides/06.2-ArbolesDeBusqueda-sem13.pdf)  
 
 <!--
-- [Árboles Binarios de Búsqueda](../slides/06.2-ArbolesDeBusqueda-sem13.pdf)  
 - [Árboles Balanceados 2-3](../slides/06.3-ArbolesDeBusquedaBalanceados-sem14.pdf)  
 - [Árboles Rojo-negros](../slides/06.4-ArbolesRojoNegros-sem15.pdf)  
 -->
