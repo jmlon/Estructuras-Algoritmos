@@ -38,7 +38,7 @@
 - Quiz 3: Sep 11
 - Quiz 4: Oct 2
 - Quiz 5: Oct 23
-- Final: 
+- Final: Nov 13, 10am
 
 
 ## Recursos en línea

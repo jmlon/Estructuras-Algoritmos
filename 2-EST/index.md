@@ -31,6 +31,7 @@
 - [Data Structures in JavaScript — Part 1: Colas, Pilas](https://blog.bitsrc.io/data-structures-in-javascript-part-1-8231c9a4bc8b)  
 - [Data Structures in JavaScript — Part 2: Listas, Grafos, Árboles](https://blog.bitsrc.io/data-structures-in-javascript-part-2-d0d09b761df0)  
 
+- [Colecciones estandard de Java - UML](JavaCollections.pdf)  
 
 <BR>
 <HR>
