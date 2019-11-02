@@ -20,6 +20,8 @@
 
 - [Ejercicios de repaso 5](Ejercicios5-201910.pdf)  
 
+- [Ejercicios de repaso evaluacion final](Ejercicios6-201910.pdf)  
+
 
 ## Material complementario
 
@@ -36,8 +38,8 @@
 - HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
 - Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
 - GeeksforGeeks [Métodos de búsqueda](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)  
-- GeeksforGeeks: Red-Black Tree [Set 1 (Introduction)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/), 
-  [Set 2 (Insert)](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/), 
+- GeeksforGeeks: Red-Black Tree [Set 1 (Introduction)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/),
+  [Set 2 (Insert)](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/),
   [Set 3 (Delete)](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)  
 <!--
 -->
@@ -57,4 +59,3 @@
 <HR>
 [Home](../index.html)
 <BR>
-
