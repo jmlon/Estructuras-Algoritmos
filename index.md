@@ -38,7 +38,7 @@
 - Quiz 3: Sep 11
 - Quiz 4: Oct 2
 - Quiz 5: Oct 23
-- Final: Nov 13, 10am
+- Final: Nov 13, 10am, Bloque 9 - 302
 
 
 ## Recursos en línea
