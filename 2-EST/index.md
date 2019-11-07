@@ -30,6 +30,7 @@
 - [JavaScript: What are Stack and Queue?](https://medium.com/javascript-in-plain-english/javascript-what-are-stack-and-queue-79df7af5a566)  
 - [Data Structures in JavaScript — Part 1: Colas, Pilas](https://blog.bitsrc.io/data-structures-in-javascript-part-1-8231c9a4bc8b)  
 - [Data Structures in JavaScript — Part 2: Listas, Grafos, Árboles](https://blog.bitsrc.io/data-structures-in-javascript-part-2-d0d09b761df0)  
+- [Data Structures in JavaScript](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)  
 
 - [Colecciones estandard de Java - UML](JavaCollections.pdf)  
 
