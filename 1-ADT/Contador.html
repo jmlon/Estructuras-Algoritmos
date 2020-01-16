@@ -21,7 +21,12 @@
 <!-- Tab content -->
 <div id="Java" class="tabcontent">
     <P><B>Contador.java</B></P>
-    <pre w3-include-html="Contador.java" class="prettyprint"></pre>
+
+    <!-- pre w3-include-html="Contador.java" class="prettyprint"></pre -->
+    {% highlight java render_with_liquid: false %}
+    {% include_relative Contador.java %}
+    {% endhighlight %}
+
     <P><B>ImplementationContador.java</B></P>
     <pre w3-include-html="ImplementacionContador.java" class="prettyprint"></pre>
 </div>
