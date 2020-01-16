@@ -1,6 +1,6 @@
 
 
-{% highlight java render_with_liquid: false %}
+{% highlight java %}
 {% include_relative Contador.java %}
 {% endhighlight %}
 
