@@ -3,7 +3,6 @@
 ## Contenidos  
 
 0. [Presentación del curso](slides/00.1-Presentacion.pdf)  
-
 1. [Tipos de datos abstractos (ADT)](1-ADT/index.html)  
 
 <!--
