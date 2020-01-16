@@ -16,3 +16,12 @@ https://www.youtube.com/channel/UCKIPFWHN2iXjUtFek5b_Zug/playlists
 Analytics:
 https://analytics.google.com/analytics/web/#/report-home/a135314004w195455079p190635863
 
+
+
+Jekyll
+https://jekyllrb.com/
+
+Testing Example Code In Your Jekyll Posts
+https://www.rubypigeon.com/posts/testing-example-code-in-your-jekyll-posts/
+https://github.com/tomdalling/jekyll-include_snippet
+
