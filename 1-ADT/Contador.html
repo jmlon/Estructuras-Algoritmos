@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../css/tabStyles.css">
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <!-- script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script -->
     <script src="../js/tabs.js"></script>
 </head>
 <body>
@@ -20,18 +20,27 @@
 
 <!-- Tab content -->
 <div id="Java" class="tabcontent">
-    <P><B>Contador.java</B></P>
 
-    <pre w3-include-html="Contador.java" class="prettyprint"></pre>
+    <P><B>Contador.java</B></P>
+    <!-- pre w3-include-html="Contador.java" class="prettyprint"></pre -->
+    {% highlight java %}
+    {% include_relative Contador.java %}
+    {% endhighlight %}
 
     <P><B>ImplementationContador.java</B></P>
-    <pre w3-include-html="ImplementacionContador.java" class="prettyprint"></pre>
+    <!-- pre w3-include-html="ImplementacionContador.java" class="prettyprint"></pre -->
+    {% highlight java %}
+    {% include_relative ImplementacionContador.java %}
+    {% endhighlight %}
 
 </div>
 
 <div id="Python" class="tabcontent">
     <P><B>Contador.py</B></P>
-    <pre w3-include-html="Contador.py" class="prettyprint"></pre>
+    <!-- pre w3-include-html="Contador.py" class="prettyprint"></pre -->
+    {% highlight python %}
+    {% include_relative Contador.py %}
+    {% endhighlight %}
 </div>
 
 <div id="CSharp" class="tabcontent">
