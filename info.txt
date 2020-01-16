@@ -25,3 +25,6 @@ Testing Example Code In Your Jekyll Posts
 https://www.rubypigeon.com/posts/testing-example-code-in-your-jekyll-posts/
 https://github.com/tomdalling/jekyll-include_snippet
 
+Creating a simple tab control in Jekyll
+https://silvercircle.github.io/2017/11/02/tabbed-content-in-jekyll/
+
