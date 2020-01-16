@@ -28,3 +28,9 @@ https://github.com/tomdalling/jekyll-include_snippet
 Creating a simple tab control in Jekyll
 https://silvercircle.github.io/2017/11/02/tabbed-content-in-jekyll/
 
+Setting up a GitHub Pages site with Jekyll
+https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
+
+How does one downgrade jekyll to work with github pages?
+https://stackoverflow.com/questions/58598084/how-does-one-downgrade-jekyll-to-work-with-github-pages
+
