@@ -18,7 +18,7 @@
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Java')" id="defaultOpen">Java</button>
   <button class="tablinks" onclick="openTab(event, 'Python')">Python</button>
-  <!--button class="tablinks" onclick="openTab(event, 'CSharp')">C#</button-->
+  <button class="tablinks" onclick="openTab(event, 'Node')">Node.js</button>
 </div>
 
 <!-- Tab content -->
@@ -43,8 +43,11 @@
 {% endhighlight %}
 </div>
 
-<div id="CSharp" class="tabcontent">
-    <P><B>Contador.cs</B></P>
+<div id="Node" class="tabcontent">
+<P><B>contador.js</B></P>
+{% highlight javascript %}
+{% include_relative contador.js %}
+{% endhighlight %}
 </div>
 
 
@@ -54,8 +57,7 @@
     //includeHTML();
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
-</script> 
+</script>
 
 </body>
 </html>
-
