@@ -17,6 +17,7 @@
   <button class="tablinks" onclick="openTab(event, 'Python')">Python</button>
   <button class="tablinks" onclick="openTab(event, 'CSharp')">C#</button>
   <button class="tablinks" onclick="openTab(event, 'Kotlin')">Kotlin</button>
+  <button class="tablinks" onclick="openTab(event, 'Node')">Node.js</button>
 </div>
 
 <!-- Tab content -->
@@ -48,6 +49,11 @@
     <pre w3-include-html="punto2D/Puntos.kt" class="prettyprint"></pre>
 </div>
 
+<div id="Node" class="tabcontent">
+    <P><B>Puntos.kt</B></P>
+    <pre w3-include-html="punto2D/punto2D.js" class="prettyprint"></pre>
+</div>
+
 
 <!-- Open default tab -->
 <script>
@@ -55,8 +61,7 @@
     includeHTML();
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
-</script> 
+</script>
 
 </body>
 </html>
-
