@@ -34,7 +34,7 @@
 
 - Quiz 1: Feb 7
 - Quiz 2: Feb 28
-- Quiz 3: Feb 20
+- Quiz 3: Mar 20
 - Quiz 4: Abr 17
 - Quiz 5: May 8
 - Final: May 18 - 29
@@ -55,5 +55,3 @@
 - GeeksForGeeks: [Data Structures](https://www.geeksforgeeks.org/data-structures/) and [Algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 
 - [Here Are the Most Common JavaScript Algorithms and Data Structures](https://medium.com/better-programming/here-are-the-most-common-javascript-algorithms-and-data-structures-ec3729050169)
-
-
