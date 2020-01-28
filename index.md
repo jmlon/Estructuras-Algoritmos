@@ -42,7 +42,7 @@
 
 ## Recursos en línea
 
-- [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/),  [Bibliotecas del texto: algs4.jar](algs4.jar)
+- [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/), [Bibliotecas del texto: algs4.jar](algs4.jar), [Repositorio Maven](https://search.maven.org/artifact/com.googlecode.princeton-java-algorithms/algorithms)
 
 - [Open Data Structures, Pat Morin](http://opendatastructures.org/)
 
