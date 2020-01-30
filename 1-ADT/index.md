@@ -16,9 +16,9 @@
 
 ## Ejercicios
 
+- [Ejercicios de repaso 1](Ejercicios1.pdf)  
 
 <!--
-- [Ejercicios de repaso 1](Ejercicios1.pdf)
 - [Reto complementario quiz 1](reto.html)
 -->
 
