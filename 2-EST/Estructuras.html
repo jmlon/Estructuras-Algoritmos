@@ -1,8 +1,11 @@
+---
+# empty front matter
+---
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="../css/tabStyles.css">
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <!--script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script-->
     <script src="../js/tabs.js"></script>
 </head>
 <body>
@@ -17,6 +20,7 @@
   <button class="tablinks" onclick="openTab(event, 'Python')">Python</button>
   <button class="tablinks" onclick="openTab(event, 'CSharp')">C#</button>
   <button class="tablinks" onclick="openTab(event, 'Kotlin')">Kotlin</button>
+  <button class="tablinks" onclick="openTab(event, 'Node')">Node</button>
 </div>
 
 <!-- Tab content -->
@@ -28,12 +32,18 @@
 </div>
 
 <div id="Python" class="tabcontent">
-    <P><B>Bag.py</B></P>
-    <pre w3-include-html="Bag.py" class="prettyprint"></pre>
-    <P><B>Stack.py</B></P>
-    <pre w3-include-html="Stack.py" class="prettyprint"></pre>
-    <P><B>Queue.py</B></P>
-    <pre w3-include-html="Queue.py" class="prettyprint"></pre>
+<P><B>Bag.py</B></P>
+{% highlight python %}
+{% include_relative Bag.py %}
+{% endhighlight %}
+<P><B>Stack.py</B></P>
+{% highlight python %}
+{% include_relative Stack.py %}
+{% endhighlight %}
+<P><B>Queue.py</B></P>
+{% highlight python %}
+{% include_relative Queue.py %}
+{% endhighlight %}
 </div>
 
 <div id="CSharp" class="tabcontent">
@@ -42,18 +52,29 @@
 </div>
 
 <div id="Kotlin" class="tabcontent">
-    <P><B>Queue.kt</B></P>
-    <pre w3-include-html="Queue.kt" class="prettyprint"></pre>
+<P><B>Queue.kt</B></P>
+<!--pre w3-include-html="Queue.kt" class="prettyprint"></pre-->
+{% highlight kotlin %}
+{% include_relative Queue.kt %}
+{% endhighlight %}
 </div>
+
+<div id="Node" class="tabcontent">
+<P><B>bagStackQueue.js</B></P>
+<!--pre w3-include-html="Queue.kt" class="prettyprint"></pre-->
+{% highlight javascript %}
+{% include_relative bagStackQueue.js %}
+{% endhighlight %}
+</div>
+
 
 <!-- Open default tab -->
 <script>
     // Include external HTML files
-    includeHTML();
+    // includeHTML();
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
-</script> 
+</script>
 
 </body>
 </html>
-
