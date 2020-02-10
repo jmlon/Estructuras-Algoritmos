@@ -21,8 +21,9 @@
 
 ## Talleres prácticos  
 
+1. [Bibliotecas y ADTs](talleres/Taller1-202020.pdf). Fecha entrega: 21/Feb  
+
 <!--
-1. [Bibliotecas y ADTs](talleres/Taller1-201920.pdf). Fecha entrega: 14/Ago  
 2. [Evaluación experimental de algoritmos](talleres/Taller2-201920.pdf). Fecha entrega: 6/Septiembre  
 3. [Estructura Unión-Búsqueda](talleres/Taller3-201920.pdf). Fecha entrega: 24/Septiembre  
 4. [Tablas de símbolos - Búsquedas](talleres/Taller4-201920.pdf). Fecha entrega: 1/Nov  
