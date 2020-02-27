@@ -3,9 +3,9 @@
 ## Slides
 
 - [Análisis de Algoritmos I](../slides/03.1-AnalisisAlgoritmos-sem04.pdf)  
+- [Análisis de Algoritmos II](../slides/03.2-AnalisisAlgoritmos-sem05.pdf)  
 
 <!--
-- [Análisis de Algoritmos II](../slides/03.2-AnalisisAlgoritmos-sem05.pdf)  
 -->
 
 ## Programas ejemplo
@@ -22,7 +22,6 @@
 
 ## Material complementario
 
-<!--
 - [Time complexity of array/list operations [Java, Python]](https://yourbasic.org/algorithms/time-complexity-arrays/)  
 - [Algorithms in plain English: time complexity and Big-O notation](https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c)
 - Video: [Sedgewick - Introducción al análisis de algorithms](https://www.youtube.com/watch?v=NSoSLBPfoog&list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&index=8)
@@ -31,6 +30,8 @@
 - Video: [Day 25 of Code: Running Time & Complexity!](https://www.youtube.com/watch?v=7UwDamuC-kU)
 - Video: [Donald Knuth - Why I chose analysis of algorithms as a subject](https://www.youtube.com/watch?v=s04GGLoU4lQ)
 - Video: [Sedgewick - Método analítico](https://www.youtube.com/watch?v=tJYBmtjsIkA&list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&index=9)
+
+<!--
 -->
 <!--- []() -->
 <!-- - []() -->
