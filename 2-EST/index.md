@@ -18,9 +18,8 @@
 
 - [Ejercicios de repaso 2](Ejercicios2.pdf)  
 
-<!--
-- [Solucion Quiz 2](ArregloConLista.java.html)  
--->
+- [Solución casos lista - Quiz 2](https://gist.github.com/343f57ef66ac262b5c79e1580205a056)  
+
 
 ## Material complementario
 
