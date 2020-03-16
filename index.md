@@ -35,7 +35,7 @@
 
 - Quiz 1: Feb 7
 - Quiz 2: Feb 28
-- Quiz 3: Mar 20
+- Quiz 3: Aplazado
 - Quiz 4: Abr 17
 - Quiz 5: May 8
 - Final: May 18 - 29
