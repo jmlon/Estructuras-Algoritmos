@@ -25,6 +25,7 @@
 1. [Bibliotecas y ADTs](talleres/Taller1-202020.pdf). Fecha entrega: 21/Feb  
 2. [Evaluación experimental de algoritmos](talleres/Taller2-202010.pdf). Fecha entrega: 13/Marzo  
 3. [Estructura Unión-Búsqueda](talleres/Taller3-202010.pdf). Fecha entrega: 1/Abril - [Solución explicada](https://web.microsoftstream.com/video/7c40314e-0977-48b0-9a84-3701c6bad9d8)  
+4. [Árboles binarios de búsqueda](https://jmlon.github.io/Estructuras-Algoritmos/talleres/Taller4-202010.pdf). Fecha entrega: 24/Abril
 
 <!--
 4. [Tablas de símbolos - Búsquedas](talleres/Taller4-201920.pdf). Fecha entrega: 1/Nov  
