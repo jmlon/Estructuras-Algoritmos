@@ -23,7 +23,6 @@
 ## Ejercicios
 
 - [Ejercicios de repaso 5](Ejercicios5-201910.pdf)  
-
 - [Ejercicios de repaso evaluacion final](Ejercicios6-201910.pdf)  
 -->
 
@@ -32,21 +31,21 @@
 
 - Sedgewick [Elementary Symbol Tables - Sequential Search, Binary Search](https://www.youtube.com/watch?v=g8DejJF9THI&list=PL5iJcUfx7xTfX-tompSrd0lCfkc1vyStO)  
 - HackerRank [ Binary search](https://www.youtube.com/watch?v=P3YID7liBug)  
-
-<!--
 - Sedgewick [Binary Search Trees - BST](https://www.youtube.com/watch?v=vWchQ0Di7yM&list=PL5iJcUfx7xTejYSchSm1igNJ2M1wcIg0W)  
+- GeeksforGeeks [Binary Search Tree](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)  
 - Sedgewick [Balanced Search Trees](https://www.youtube.com/watch?v=N-yla7zw0Fw&list=PL5iJcUfx7xTc2QjKxufNpYNOUVDufUSij)  
-- HackerRank [ Binary search Tree](https://www.youtube.com/watch?v=oSWTXtMglKE)  
+- HackerRank [Binary search Tree](https://www.youtube.com/watch?v=oSWTXtMglKE)  
+<!--
 -->
 
 <!--
 - GeeksforGeeks [Red Black Tree - Insertion ](https://www.youtube.com/watch?v=YCo2-H2CL6Q)  
-- HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
-- Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
-- GeeksforGeeks [Métodos de búsqueda](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)  
 - GeeksforGeeks: Red-Black Tree [Set 1 (Introduction)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/),
   [Set 2 (Insert)](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/),
   [Set 3 (Delete)](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)  
+- HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
+- Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
+- GeeksforGeeks [Métodos de búsqueda](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)  
 -->
 
 <!--
