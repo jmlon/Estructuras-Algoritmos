@@ -4,18 +4,18 @@
 - [Tabla de símbolos, búsqueda secuencial, búsqueda binaria](../slides/06.1-Busqueda-sem12.pdf)  
 - [Árboles Binarios de Búsqueda](../slides/06.2-ArbolesDeBusqueda-sem13.pdf)  
 - [Árboles Balanceados 2-3](../slides/06.3-ArbolesDeBusquedaBalanceados-sem14.pdf)  
+- [Árboles Rojo-negros](../slides/06.4-ArbolesRojoNegros-sem15.pdf)  
 
 <!--
-- [Árboles Rojo-negros](../slides/06.4-ArbolesRojoNegros-sem15.pdf)  
 -->
 
 ## Programas ejemplo
 - Búsqueda secuencial: [SequentialSearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/SequentialSearchST.java.html)  
 - Búsqueda binaria: [BinarySearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BinarySearchST.java.html)  
-
-<!--
 - Binary Search Trees: [BST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BST.java.html)  
 - Red-Black Binary Search Tree [RedBlackBST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/RedBlackBST.java.html)  
+
+<!--
 -->
 
 <!--
@@ -33,15 +33,16 @@
 - Sedgewick [Binary Search Trees - BST](https://www.youtube.com/watch?v=vWchQ0Di7yM&list=PL5iJcUfx7xTejYSchSm1igNJ2M1wcIg0W)  
 - GeeksforGeeks [Binary Search Tree](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)  
 - HackerRank [Binary search Tree](https://www.youtube.com/watch?v=oSWTXtMglKE)  
-<!--
--->
-
-<!--
 - Sedgewick [Balanced Search Trees](https://www.youtube.com/watch?v=N-yla7zw0Fw&list=PL5iJcUfx7xTc2QjKxufNpYNOUVDufUSij)  
 - GeeksforGeeks [Red Black Tree - Insertion ](https://www.youtube.com/watch?v=YCo2-H2CL6Q)  
 - GeeksforGeeks: Red-Black Tree [Set 1 (Introduction)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/),
   [Set 2 (Insert)](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/),
   [Set 3 (Delete)](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)  
+
+<!--
+-->
+
+<!--
 - HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
 - Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
 - GeeksforGeeks [Métodos de búsqueda](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)  
