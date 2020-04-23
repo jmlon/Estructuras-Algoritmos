@@ -48,7 +48,7 @@
 
 - [Algorithms, Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 
-- [Documentación Java 10](https://docs.oracle.com/javase/10/)
+- [Documentación Java 12](https://docs.oracle.com/en/java/javase/12/)
 
 - [Implementacion (parcial) en C# de las bibliotecas del texto](https://github.com/angellaa/algs4)
 

@@ -5,6 +5,7 @@
 - [Árboles Binarios de Búsqueda](../slides/06.2-ArbolesDeBusqueda-sem13.pdf)  
 - [Árboles Balanceados 2-3](../slides/06.3-ArbolesDeBusquedaBalanceados-sem14.pdf)  
 - [Árboles Rojo-negros](../slides/06.4-ArbolesRojoNegros-sem15.pdf)  
+- [Tablas de símbolos](../slides/06.5-TablasDeDispersion-sem15.pdf)  
 
 <!--
 -->
@@ -14,7 +15,7 @@
 - Búsqueda binaria: [BinarySearchST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BinarySearchST.java.html)  
 - Binary Search Trees: [BST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/BST.java.html)  
 - Red-Black Binary Search Tree [RedBlackBST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/RedBlackBST.java.html)  
-
+- Tabla hash de cadenas separadas [SeparateChainingHashST](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/SeparateChainingHashST.java.html)  
 <!--
 -->
 
@@ -38,13 +39,15 @@
 - GeeksforGeeks: Red-Black Tree [Set 1 (Introduction)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/),
   [Set 2 (Insert)](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/),
   [Set 3 (Delete)](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)  
+- HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
+- Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
+- [HashMap vs. TreeMap vs. HashTable vs. LinkedHashMap](https://dzone.com/articles/hashmap-vs-treemap-vs)  
+- [Java Collections](2-EST/JavaCollections.pdf)  
 
 <!--
 -->
 
 <!--
-- HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
-- Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
 - GeeksforGeeks [Métodos de búsqueda](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)  
 -->
 
