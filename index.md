@@ -10,10 +10,9 @@
 5. [Métodos de ordenación (sorting)](5-ORD/index.html)  
 6. [Métodos de selección (heaps)](6-SEL/index.html)  
 7. [Métodos de búsqueda (search)](7-BUS/index.html)  
-
+8. [Grafos](8-GRA/index.html)  
 
 <!--
-8. [Grafos](8-GRA/index.html)  
 -->
 
 [Bibliografía](bibliografia.html)
@@ -26,10 +25,9 @@
 2. [Evaluación experimental de algoritmos](talleres/Taller2-202010.pdf). Fecha entrega: 13/Marzo  
 3. [Estructura Unión-Búsqueda](talleres/Taller3-202010.pdf). Fecha entrega: 1/Abril - [Solución explicada](https://web.microsoftstream.com/video/7c40314e-0977-48b0-9a84-3701c6bad9d8)  
 4. [Árboles binarios de búsqueda](https://jmlon.github.io/Estructuras-Algoritmos/talleres/Taller4-202010.pdf). Fecha entrega: 24/Abril
+5. [Tablas de dispersión](talleres/Taller5-202010.pdf). Fecha entrega: 11/Mayo
 
 <!--
-4. [Tablas de símbolos - Búsquedas](talleres/Taller4-201920.pdf). Fecha entrega: 1/Nov  
-4. [Ordenación de listas](talleres/Taller4-201910.pdf). Fecha entrega: 24/Abril
 -->
 
 
