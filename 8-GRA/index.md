@@ -15,9 +15,10 @@
 - ADT [EdgeWeightedDigraph](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/EdgeWeightedDigraph.java.html)  
 - [Depth First Search](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/DepthFirstSearch.java.html)  
 
-<!--
+
 ## Ejercicios
--->
+
+- [Ejercicios de repaso evaluacion final](Ejercicios6-202010.pdf)  
 
 
 ## Material complementario
