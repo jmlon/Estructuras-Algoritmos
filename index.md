@@ -35,7 +35,7 @@
 
 - Quiz 1: Feb 7
 - Quiz 2: Feb 28
-- Final: May 18 - 29
+- Final: May 15, 8am
 
 
 ## Recursos en línea

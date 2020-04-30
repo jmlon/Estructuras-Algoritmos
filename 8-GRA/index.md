@@ -18,7 +18,7 @@
 
 ## Ejercicios
 
-- [Ejercicios de repaso evaluacion final](Ejercicios6-202010.pdf)  
+- [Ejercicios de repaso evaluación final](Ejercicios6-202010.pdf)  
 
 
 ## Material complementario

@@ -22,8 +22,9 @@
 <!--
 ## Ejercicios
 
-- [Ejercicios de repaso 5](Ejercicios5-201910.pdf)  
 - [Ejercicios de repaso evaluacion final](Ejercicios6-201910.pdf)  
+
+- [Ejercicios de repaso 5](Ejercicios5-201910.pdf)  
 -->
 
 
