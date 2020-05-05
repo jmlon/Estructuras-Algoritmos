@@ -2,7 +2,7 @@
 
 ## Slides
 - [Grafos, recorrido de grafos](../slides/07.1-Grafos-sem16.pdf)  
-- [Camino mas corto, algoritmo de Dijkstra](../slides/07.2-AlgGrafos-sem16.pdf)  
+- [Camino más corto, algoritmo de Dijkstra](../slides/07.2-AlgGrafos-sem16.pdf)  
 
 <!--
 - [Camino mas corto, árbol de cubrimiento mínimo](07.2-AlgGrafos-sem16.pdf)  
