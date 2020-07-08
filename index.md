@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/png" href="{{ '/favicon-96x96.png' | relative_url }}" >
-
 # Estructuras de Datos y Algoritmos
 
 ## Contenidos  
