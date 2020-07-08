@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/png" href="{{ '/favicon/favicon-16x16.png' | relative_url }}" >
-
 # Tipos de datos abstractos<BR>(Abstract Data Types - ADT)
 
 ## Slides
