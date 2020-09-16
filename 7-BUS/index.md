@@ -43,7 +43,7 @@
 - HackerRank [ Data Structures - Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8)  
 - Video: [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q). Explicación de varios métodos de manejo de colisiones.  
 - [HashMap vs. TreeMap vs. HashTable vs. LinkedHashMap](https://dzone.com/articles/hashmap-vs-treemap-vs)  
-- [Java Collections](2-EST/JavaCollections.pdf)  
+- [Java Collections](../2-EST/JavaCollections.pdf)  
 
 <!--
 -->
