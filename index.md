@@ -40,7 +40,7 @@
 
 ## Recursos en línea
 
-- [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/), [Bibliotecas del texto: algs4.jar](algs4.jar), [Repositorio Maven](https://search.maven.org/artifact/com.googlecode.princeton-java-algorithms/algorithms)
+- [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/), [Bibliotecas del texto: algs4.jar](algs4.jar), [Documentación](https://algs4.cs.princeton.edu/code/)  
 
 - [Bibliotecas estandar de Java 8](https://docs.oracle.com/javase/8/docs/api/)  
 
