@@ -43,15 +43,18 @@
 - [Algorithms, 4th ed. - Texto guía](https://algs4.cs.princeton.edu/home/), [Bibliotecas del texto: algs4.jar](algs4.jar), [Documentación](https://algs4.cs.princeton.edu/code/)  
 
 - [Bibliotecas estandar de Java 8](https://docs.oracle.com/javase/8/docs/api/)  
+- [Documentación Java 12](https://docs.oracle.com/en/java/javase/12/)
 
 - [Open Data Structures, Pat Morin](http://opendatastructures.org/)
 
 - [Algorithms, Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 
-- [Documentación Java 12](https://docs.oracle.com/en/java/javase/12/)
+- OpenDSA: [CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html#)
 
 - [Implementacion (parcial) en C# de las bibliotecas del texto](https://github.com/angellaa/algs4)
 
 - GeeksForGeeks: [Data Structures](https://www.geeksforgeeks.org/data-structures/) and [Algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 
 - [Here Are the Most Common JavaScript Algorithms and Data Structures](https://medium.com/better-programming/here-are-the-most-common-javascript-algorithms-and-data-structures-ec3729050169)
+
+- [VisuAlgo - visualising data structures and algorithms through animation](https://visualgo.net/en)  
