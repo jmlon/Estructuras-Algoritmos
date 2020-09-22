@@ -1,12 +1,9 @@
 # Grafos
 
 ## Slides
-- [Grafos, recorrido de grafos](../slides/07.1-Grafos-sem16.pdf)  
-- [Camino más corto, algoritmo de Dijkstra](../slides/07.2-AlgGrafos-sem16.pdf)  
-
-<!--
-- [Camino mas corto, árbol de cubrimiento mínimo](07.2-AlgGrafos-sem16.pdf)  
--->
+- [Grafos, recorrido de grafos](../slides/07.1-Grafos-Recorrido.pdf)  
+- [Ordenamiento topológico](../slides/07.2-Grafos-OrdenamientoTopologico.pdf)
+- [Camino más corto, algoritmo de Dijkstra](../slides/07.3-Grafos-Dijkstra.pdf)  
 
 
 ## Programas ejemplo
