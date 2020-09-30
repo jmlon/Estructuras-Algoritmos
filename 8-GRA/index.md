@@ -4,6 +4,7 @@
 - [Grafos, recorrido de grafos](../slides/07.1-Grafos-Recorrido.pdf)  
 - [Ordenamiento topológico](../slides/07.2-Grafos-OrdenamientoTopologico.pdf)
 - [Camino más corto, algoritmo de Dijkstra](../slides/07.3-Grafos-Dijkstra.pdf)  
+- [Caminos más cortos, algoritmo de Bellman-Ford](../slides/07.4-Grafos-BellmanFordSP.pdf)  
 
 
 ## Programas ejemplo
