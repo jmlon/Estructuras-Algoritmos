@@ -11,6 +11,7 @@
 6. [Métodos de selección (heaps)](6-SEL/index.html)  
 7. [Métodos de búsqueda (search)](7-BUS/index.html)  
 8. [Grafos](8-GRA/index.html)  
+9. [Programación dinámica](9-DYNP/index.html)  
 
 <!--
 -->
@@ -33,9 +34,7 @@
 
 ## Fechas importantes
 
-- Quiz 1: Feb 7
-- Quiz 2: Feb 28
-- Final: May 15, 8am
+- Final: Oct 22, 8am
 
 
 ## Recursos en línea
