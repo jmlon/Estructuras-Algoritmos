@@ -15,7 +15,7 @@
 
 ## Material complementario
 
-
+- [The Knapsack Problem & Genetic Algorithms - Computerphile](https://youtu.be/MacVqujSXWE)
 
 <BR>
 <HR>
