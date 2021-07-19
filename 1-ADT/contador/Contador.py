@@ -23,7 +23,8 @@ class Contador:
 # Prueba unitaria del ADT Contador
 if __name__ == '__main__':
     a = Contador('prueba')
+    assert a.getConteo() == 0, "El valor inicial debe ser cero"
     a.incrementar()
     a.incrementar()
-    assert a.getConteo() == 2
+    assert a.getConteo() == 2, "El valor del conteo debe ser dos"
     assert a.getId() == 'prueba'
