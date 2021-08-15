@@ -4,6 +4,7 @@
  * interface Punto2D       : Define el API del ADT
  * class Punto2DCartesiano : Implementación en coordenadas cartesianas
  * class Punto2DPolar      : Implementación utilizando coordenadas polares
+ * class Punto3DCartesiano : Ejemplo de herencia de implementación en TS
  * 
  * @author: Jorge Londoño
  */
@@ -55,6 +56,7 @@ class Punto2DPolar implements Punto2D {
     private mag: number;
     private theta: number;
 
+    // If not given, member access is public
     constructor(mag: number, theta: number) {
         this.mag = mag;
         this.theta = theta;
@@ -80,6 +82,27 @@ class Punto2DPolar implements Punto2D {
         return `mag=${this.mag}, theta=${this.theta}`;
     }
 
+
+}
+
+// Un ejemplo de herencia de implementacion
+class Punto3DCartesiano extends Punto2DCartesiano {
+    
+    // Define z as a public instance variable
+    constructor(x: number, y: number, public z: number) {
+        super(x,y); // Invocar el constructor de la superclase
+        this.z = z;
+    }
+
+    // NOTA: 
+    // Observar que las implementaciones heredadas de distancia, toString, equals
+    // fallan para Punto3DCartesiano.
+    // Ejercicio: Sobre-escribir estos metodos
+
+    toString(): string {
+        const s = super.toString();
+        return s.substring(0,s.length-1)+`,${this.z})`;
+    }
 
 }
 
@@ -112,3 +135,10 @@ console.log(`c1 = ${c1.toString()}`);
 console.log(`c2 = ${c2.toString()}`);
 console.log(`p1 = ${p1.toString()}`);
 console.log(`p2 = ${p2.toString()}`);
+
+
+const p3d = new Punto3DCartesiano(2,3,4);
+console.log(p3d.toString());
+p3d.z = 1;  // a public member does not enforce encapsulation
+
+
