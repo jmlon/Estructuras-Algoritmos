@@ -5,7 +5,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../css/tabStyles.css">
-    <!-- script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script -->
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
     <script src="../js/tabs.js"></script>
 </head>
 <body>
@@ -22,16 +22,16 @@
 <div id="Java" class="tabcontent">
 
 <P><B>Bibliotecas.java</B></P>
-{% highlight java %}
+<pre class="prettyprint">
 {% include_relative bibliotecas/Bibliotecas.java %}
-{% endhighlight %}
+</pre>
 
 
 </div>
 
 <script>
     // Include external HTML files
-    //includeHTML();
+    // includeHTML();
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 </script>
