@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../css/tabStyles.css">
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
     <script src="../js/tabs.js"></script>
 </head>
 <body>
@@ -23,25 +23,37 @@
 
 <!-- Tab content -->
 <div id="Java" class="tabcontent">
-    <P><B>IBomba.java</B></P>
-    <pre w3-include-html="bombaObjetivo/IBomba.java" class="prettyprint"></pre>
-    <P><B>Bomba.java</B></P>
-    <pre w3-include-html="bombaObjetivo/Bomba.java" class="prettyprint"></pre>
-    <P><B>IObjetivo.java</B></P>
-    <pre w3-include-html="bombaObjetivo/IObjetivo.java" class="prettyprint"></pre>
-    <P><B>Objetivo.java</B></P>
-    <pre w3-include-html="bombaObjetivo/Objetivo.java" class="prettyprint"></pre>
-    <P><B>JuegoBombas2.java</B></P>
-    <pre w3-include-html="bombaObjetivo/JuegoBombas2.java" class="prettyprint"></pre>
-    <P><B>SolucionReto.java</B></P>
-    <pre w3-include-html="bombaObjetivo/SolucionReto.java" class="prettyprint"></pre>
+<P><B>IBomba.java</B></P>
+<pre class="prettyprint">
+{% include_relative bombaObjetivo/IBomba.java %}
+</pre>
+<P><B>Bomba.java</B></P>
+<pre class="prettyprint">
+{% include_relative bombaObjetivo/Bomba.java %}
+</pre>
+<P><B>IObjetivo.java</B></P>
+<pre class="prettyprint">
+{% include_relative bombaObjetivo/IObjetivo.java %}
+</pre>
+<P><B>Objetivo.java</B></P>
+<pre class="prettyprint">
+{% include_relative bombaObjetivo/Objetivo.java %}
+</pre>
+<P><B>JuegoBombas2.java</B></P>
+<pre class="prettyprint">
+{% include_relative bombaObjetivo/JuegoBombas2.java %}
+</pre>
+<P><B>SolucionReto.java</B></P>
+<pre class="prettyprint">
+{% include_relative bombaObjetivo/SolucionReto.java %}
+</pre>
 </div>
 
 
 <!-- Open default tab -->
 <script>
     // Include external HTML files
-    includeHTML();
+    // includeHTML();
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 </script> 
