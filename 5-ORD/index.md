@@ -15,6 +15,8 @@
 - Ordenación por fusión: [Mergesort](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Merge.java.html)  
 - Ordenación rápida: [Quicksort](https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/Quick.java.html)  
 
+- Implementación de comparadores: [Comparadores](Comparing.html)  
+
 ## Ejercicios
 
 <!--

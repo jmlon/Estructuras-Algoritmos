@@ -1,0 +1,57 @@
+---
+# empty front matter
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/tabStyles.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <script src="../js/tabs.js"></script>
+</head>
+<body>
+
+
+
+<!-- howto: https://www.w3schools.com/howto/howto_js_tabs.asp -->
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Java - Comparable')" id="defaultOpen">Java - Interfaz Comparable</button>
+  <button class="tablinks" onclick="openTab(event, 'Java - Comparator')" >Java - Interfaz Comparator</button>
+  <button class="tablinks" onclick="openTab(event, 'Python')">Python</button>
+</div>
+
+
+<!-- Tab content -->
+<div id="Java - Comparable" class="tabcontent">
+<P><B>FechaComparable.java</B></P>
+<pre class="prettyprint">
+{% include_relative Comparing/FechaComparable.java %}
+</pre>
+</div>
+
+<div id="Java - Comparator" class="tabcontent">
+<P><B>FechaComparator.java</B></P>
+<pre class="prettyprint">
+{% include_relative Comparing/FechaComparator.java %}
+</pre>
+</div>
+
+<div id="Python" class="tabcontent">
+<P><B>Fecha.py</B></P>
+<pre class="prettyprint">
+{% include_relative Comparing/Fecha.py %}
+</pre>
+</div>
+
+
+<!-- Open default tab -->
+<script>
+    // Include external HTML files
+    // includeHTML();
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
