@@ -17,21 +17,29 @@
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Java')" id="defaultOpen">Java</button>
-  <!--button class="tablinks" onclick="openTab(event, 'CSharp')">C#</button-->
+  <button class="tablinks" onclick="openTab(event, 'Python')">Python</button>
 </div>
 
 <!-- Tab content -->
 <div id="Java" class="tabcontent">
 <P><B>BallLauncher.java</B></P>
 <pre class="prettyprint">
-{% include_relative BallLauncher.java %}
+{% include_relative ballLauncher/BallLauncher.java %}
 </pre>
 </div>
+
+<div id="Python" class="tabcontent">
+<P><B>Ball.py</B></P>
+<pre class="prettyprint">
+{% include_relative ballLauncher/Ball.py %}
+</pre>
+</div>
+
 
 <hr>
 <br>
 
-<img src="ball.gif">
+<img src="ballLauncher/ball.gif">
 
 
 <!-- Open default tab -->
