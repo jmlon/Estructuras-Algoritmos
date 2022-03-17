@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Fecha.py</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<pre>
+<font color="#444444"># Sobrecarga de los metodos de &quot;Rich Comparison&quot;</font>
+<font color="#444444"># Documentacion: https://docs.python.org/3/reference/datamodel.html#basic-customization</font>
+
+
+<strong>class</strong> <font color="#2040a0">Fecha</font><font color="4444FF">:</font>
+
+<strong>   <font color="ff0000"> def</font><font color="ff0000"> __init__</font><font color="2040a0">(self, año, mes, dia)</font>:
+</strong>        <font color="#2040a0">self</font>.<font color="#2040a0">_a</font>ñ<font color="#2040a0">o</font> <font color="4444FF">=</font> <font color="#2040a0">a</font>ñ<font color="#2040a0">o</font>
+        <font color="#2040a0">self</font>.<font color="#2040a0">_mes</font> <font color="4444FF">=</font> <font color="#2040a0">mes</font>
+        <font color="#2040a0">self</font>.<font color="#2040a0">_dia</font> <font color="4444FF">=</font> <font color="#2040a0">dia</font>
+
+<strong>   <font color="ff0000"> def</font><font color="ff0000"> __str__</font><font color="2040a0">(self)</font>:
+</strong>        <strong>return</strong> <font color="#2040a0">str</font><font color="4444FF">(</font><font color="#2040a0">self</font>.<font color="#2040a0">_a</font>ñ<font color="#2040a0">o</font><font color="4444FF">)</font><font color="4444FF">+</font><font color="#008000">&quot;/&quot;</font><font color="4444FF">+</font><font color="#2040a0">str</font><font color="4444FF">(</font><font color="#2040a0">self</font>.<font color="#2040a0">_mes</font><font color="4444FF">)</font><font color="4444FF">+</font><font color="#008000">&quot;/&quot;</font><font color="4444FF">+</font><font color="#2040a0">str</font><font color="4444FF">(</font><font color="#2040a0">self</font>.<font color="#2040a0">_dia</font><font color="4444FF">)</font>
+
+<strong>   <font color="ff0000"> def</font><font color="ff0000"> __lt__</font><font color="2040a0">(self, f)</font>:
+</strong>        <font color="#444444"># print(f&quot;Comparando {str(self)} con {str(f)}&quot;)</font>
+        <strong>if</strong> <font color="#2040a0">self</font>.<font color="#2040a0">_a</font>ñ<font color="#2040a0">o</font> <font color="4444FF">!</font><font color="4444FF">=</font> <font color="#2040a0">f</font>.<font color="#2040a0">_a</font>ñ<font color="#2040a0">o</font><font color="4444FF">:</font>
+            <strong>return</strong> <font color="#2040a0">self</font>.<font color="#2040a0">_a</font>ñ<font color="#2040a0">o</font> <font color="4444FF">&lt;</font> <font color="#2040a0">f</font>.<font color="#2040a0">_a</font>ñ<font color="#2040a0">o</font>
+        <strong>if</strong> <font color="#2040a0">self</font>.<font color="#2040a0">_mes</font> <font color="4444FF">!</font><font color="4444FF">=</font> <font color="#2040a0">f</font>.<font color="#2040a0">_mes</font><font color="4444FF">:</font>
+            <strong>return</strong> <font color="#2040a0">self</font>.<font color="#2040a0">_mes</font> <font color="4444FF">&lt;</font> <font color="#2040a0">f</font>.<font color="#2040a0">_mes</font>
+        <strong>return</strong> <font color="#2040a0">self</font>.<font color="#2040a0">_dia</font> <font color="4444FF">&lt;</font> <font color="#2040a0">f</font>.<font color="#2040a0">_dia</font>
+
+
+<font color="#444444"># Pruebas unitarias</font>
+<strong>if</strong> <font color="#2040a0">__name__</font><font color="4444FF">=</font><font color="4444FF">=</font><font color="#008000">&quot;__main__&quot;</font><font color="4444FF">:</font>
+    <font color="#2040a0">f1</font> <font color="4444FF">=</font> <font color="#2040a0">Fecha</font><font color="4444FF">(</font><font color="#FF0000">2020</font>, <font color="#FF0000">3</font>, <font color="#FF0000">17</font><font color="4444FF">)</font>
+    <font color="#2040a0">f2</font> <font color="4444FF">=</font> <font color="#2040a0">Fecha</font><font color="4444FF">(</font><font color="#FF0000">2020</font>, <font color="#FF0000">3</font>, <font color="#FF0000">16</font><font color="4444FF">)</font>
+    <font color="#2040a0">f3</font> <font color="4444FF">=</font> <font color="#2040a0">Fecha</font><font color="4444FF">(</font><font color="#FF0000">2020</font>, <font color="#FF0000">4</font>, <font color="#FF0000">17</font><font color="4444FF">)</font>
+    <font color="#2040a0">f4</font> <font color="4444FF">=</font> <font color="#2040a0">Fecha</font><font color="4444FF">(</font><font color="#FF0000">2020</font>, <font color="#FF0000">3</font>, <font color="#FF0000">17</font><font color="4444FF">)</font>
+    <font color="#2040a0">f5</font> <font color="4444FF">=</font> <font color="#2040a0">Fecha</font><font color="4444FF">(</font><font color="#FF0000">2021</font>, <font color="#FF0000">4</font>, <font color="#FF0000">17</font><font color="4444FF">)</font>
+
+    <strong>assert</strong> <strong>not</strong><font color="4444FF">(</font><font color="#2040a0">f1</font><font color="4444FF">&lt;</font><font color="#2040a0">f2</font><font color="4444FF">)</font>, <font color="#008000">&quot;f1 no debe ser menor que f2&quot;</font>
+    <strong>assert</strong> <font color="#2040a0">f2</font><font color="4444FF">&lt;</font><font color="#2040a0">f1</font>, <font color="#008000">&quot;f2 debe ser menor que f1&quot;</font>
+    <strong>assert</strong> <font color="#2040a0">f1</font><font color="4444FF">&lt;</font><font color="#2040a0">f3</font>, <font color="#008000">&quot;f1 debe ser menor que f3&quot;</font>
+    <strong>assert</strong> <strong>not</strong><font color="4444FF">(</font><font color="#2040a0">f1</font><font color="4444FF">&lt;</font><font color="#2040a0">f4</font><font color="4444FF">)</font>, <font color="#008000">&quot;f1 no debe ser menor que f4&quot;</font>
+    <strong>assert</strong> <font color="#2040a0">f3</font><font color="4444FF">&lt;</font><font color="#2040a0">f5</font>, <font color="#008000">&quot;f3 debe ser menor que f5&quot;</font>
+
+
+
+<font color="#444444"># End of program</font>
+
+</pre>
+<hr>
+syntax highlighted by <a href="http://www.palfrader.org/code2html">Code2HTML</a>, v. 0.9.1
+</body>
+</html>
